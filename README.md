@@ -19,6 +19,6 @@ To test Netlify Functions locally, run `netlify dev` instead of `npm run dev`.
 
 ## Deploy
 
-Push to Netlify (config already in `netlify.toml`). To enable the "Check live hours" button, add a `GOOGLE_PLACES_API_KEY` env var in Netlify → Site settings → Environment variables (requires the new Places API enabled in Google Cloud).
+Push to Netlify (config already in `netlify.toml`). No env vars or API keys needed — the "🔄 Check live hours" button hits OpenStreetMap's free Nominatim API via `netlify/functions/places.ts`. When OSM doesn't have opening-hours data for a place, the UI falls back to the static hours baked into the seed.
 
 Itinerary data lives in `src/data/trip.seed.json`. User edits + check-offs persist to localStorage via an overlay — the seed stays pristine.

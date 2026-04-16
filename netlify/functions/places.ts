@@ -1,30 +1,21 @@
 import type { Context } from '@netlify/functions'
 
-type TextSearchResponse = {
-  places?: Array<{
-    id?: string
-    displayName?: { text?: string }
-    formattedAddress?: string
-    businessStatus?: string
-    regularOpeningHours?: {
-      openNow?: boolean
-      weekdayDescriptions?: string[]
-    }
-    currentOpeningHours?: {
-      openNow?: boolean
-      weekdayDescriptions?: string[]
-    }
-  }>
-}
+// OpenStreetMap Nominatim — free, no API key, no signup.
+// Usage policy: <1 req/sec per client, include a descriptive User-Agent.
+// https://operations.osmfoundation.org/policies/nominatim/
+const NOMINATIM_URL = 'https://nominatim.openstreetmap.org/search'
+const USER_AGENT =
+  'korea-trip/1.0 (personal itinerary app; https://github.com/DorSkoler/korea-trip)'
 
-const FIELD_MASK = [
-  'places.id',
-  'places.displayName',
-  'places.formattedAddress',
-  'places.businessStatus',
-  'places.regularOpeningHours',
-  'places.currentOpeningHours',
-].join(',')
+type NominatimResult = {
+  display_name?: string
+  lat?: string
+  lon?: string
+  class?: string
+  type?: string
+  extratags?: Record<string, string>
+  address?: Record<string, string>
+}
 
 export default async (req: Request, _ctx: Context) => {
   const url = new URL(req.url)
@@ -36,27 +27,22 @@ export default async (req: Request, _ctx: Context) => {
     })
   }
 
-  const key = Netlify.env.get('GOOGLE_PLACES_API_KEY')
-  if (!key) {
-    return new Response(
-      JSON.stringify({
-        error:
-          'GOOGLE_PLACES_API_KEY is not set. Add it in Netlify → Site settings → Environment variables.',
-      }),
-      { status: 503, headers: { 'content-type': 'application/json' } },
-    )
-  }
+  const params = new URLSearchParams({
+    q: query,
+    format: 'json',
+    addressdetails: '1',
+    extratags: '1',
+    countrycodes: 'kr',
+    limit: '1',
+  })
 
   let resp: Response
   try {
-    resp = await fetch('https://places.googleapis.com/v1/places:searchText', {
-      method: 'POST',
+    resp = await fetch(`${NOMINATIM_URL}?${params}`, {
       headers: {
-        'X-Goog-Api-Key': key,
-        'X-Goog-FieldMask': FIELD_MASK,
-        'content-type': 'application/json',
+        'User-Agent': USER_AGENT,
+        Accept: 'application/json',
       },
-      body: JSON.stringify({ textQuery: query, pageSize: 1 }),
     })
   } catch (err) {
     return new Response(
@@ -66,37 +52,65 @@ export default async (req: Request, _ctx: Context) => {
   }
 
   if (!resp.ok) {
-    const text = await resp.text()
+    const text = await resp.text().catch(() => '')
     return new Response(
-      JSON.stringify({ error: 'Places API error', status: resp.status, detail: text }),
+      JSON.stringify({
+        error: `OSM Nominatim error (${resp.status})`,
+        detail: text.slice(0, 200),
+      }),
       { status: resp.status, headers: { 'content-type': 'application/json' } },
     )
   }
 
-  const data = (await resp.json()) as TextSearchResponse
-  const first = data.places?.[0] ?? null
-  const hours =
-    first?.currentOpeningHours?.weekdayDescriptions ??
-    first?.regularOpeningHours?.weekdayDescriptions ??
-    null
+  const results = (await resp.json()) as NominatimResult[]
+  const first = results[0]
+
+  if (!first) {
+    return new Response(
+      JSON.stringify({
+        found: false,
+        source: 'osm',
+        placeId: null,
+        displayName: null,
+        address: null,
+        businessStatus: null,
+        weekdayDescriptions: null,
+        openNow: null,
+      }),
+      {
+        headers: {
+          'content-type': 'application/json',
+          'cache-control': 'public, max-age=86400',
+        },
+      },
+    )
+  }
+
+  const ex = first.extratags ?? {}
+  const openingHours = ex.opening_hours ?? null
+  // OSM opening_hours is a single tag with a compact grammar (e.g.
+  // "Mo-Fr 09:00-18:00; Tu off; PH off"). We display it as-is on one line —
+  // readable enough and avoids shipping a heavy parser. If missing, the UI
+  // falls back to the static weekly hours from the seed.
+  const weekdayDescriptions = openingHours ? [openingHours] : null
 
   return new Response(
     JSON.stringify({
-      found: Boolean(first),
-      placeId: first?.id ?? null,
-      displayName: first?.displayName?.text ?? null,
-      address: first?.formattedAddress ?? null,
-      businessStatus: first?.businessStatus ?? null,
-      weekdayDescriptions: hours,
-      openNow:
-        first?.currentOpeningHours?.openNow ??
-        first?.regularOpeningHours?.openNow ??
-        null,
+      found: true,
+      source: 'osm',
+      placeId: null,
+      displayName: null,
+      address: first.display_name ?? null,
+      businessStatus: null,
+      weekdayDescriptions,
+      openNow: null,
+      phone: ex.phone ?? ex['contact:phone'] ?? null,
+      website: ex.website ?? ex['contact:website'] ?? null,
     }),
     {
       headers: {
         'content-type': 'application/json',
-        'cache-control': 'public, max-age=3600',
+        'cache-control': 'public, max-age=86400', // 24h
       },
     },
   )
