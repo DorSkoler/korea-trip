@@ -1,0 +1,37 @@
+{
+  "app": {
+    "overview": "סקירת הטיול",
+    "dayOfN": "יום {{n}} מתוך {{total}}",
+    "overviewTitle": "🇰🇷 טיול לקוריאה",
+    "overviewSubtitle": "15 ימים · סיאול + בוסאן · לחצו על יום כדי להיכנס",
+    "homeAria": "סקירת טיול",
+    "korean": "Korea",
+    "may2026": "מאי 2026"
+  },
+  "timeOfDay": {
+    "morning": "בוקר",
+    "afternoon": "צהריים",
+    "evening": "ערב",
+    "night": "לילה"
+  },
+  "day": {
+    "dayN": "יום {{n}}",
+    "placesCount": "{{count}} מקומות"
+  },
+  "place": {
+    "notesToggleShow": "+ הערות",
+    "notesToggleHide": "— הסתרה",
+    "hoursUnknown": "שעות לא ידועות",
+    "closedToday": "סגור היום",
+    "markDone": "סמן כ- בוצע",
+    "markNotDone": "סמן כ- לא בוצע",
+    "mustDo": "חובה"
+  },
+  "hours": {
+    "durationHours": "~{{hours}} שעות"
+  },
+  "settings": {
+    "title": "הגדרות",
+    "comingSoon": "(בקרוב)"
+  }
+}

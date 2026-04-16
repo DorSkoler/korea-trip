@@ -1,0 +1,37 @@
+{
+  "app": {
+    "overview": "Trip overview",
+    "dayOfN": "Day {{n}} of {{total}}",
+    "overviewTitle": "🇰🇷 Korea Trip",
+    "overviewSubtitle": "15 days · Seoul + Busan · tap a day to open",
+    "homeAria": "Trip overview",
+    "korean": "Korea",
+    "may2026": "May 2026"
+  },
+  "timeOfDay": {
+    "morning": "Morning",
+    "afternoon": "Afternoon",
+    "evening": "Evening",
+    "night": "Night"
+  },
+  "day": {
+    "dayN": "Day {{n}}",
+    "placesCount": "{{count}} places"
+  },
+  "place": {
+    "notesToggleShow": "+ Notes",
+    "notesToggleHide": "— Hide",
+    "hoursUnknown": "Hours not set",
+    "closedToday": "Closed today",
+    "markDone": "Mark done",
+    "markNotDone": "Mark not done",
+    "mustDo": "Must do"
+  },
+  "hours": {
+    "durationHours": "~{{hours}}h"
+  },
+  "settings": {
+    "title": "Settings",
+    "comingSoon": "(coming soon)"
+  }
+}

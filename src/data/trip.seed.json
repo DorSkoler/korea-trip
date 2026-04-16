@@ -1,0 +1,1286 @@
+{
+  "version": 1,
+  "startDate": "2026-05-08",
+  "endDate": "2026-05-22",
+  "city": "Seoul + Busan",
+  "days": [
+    {
+      "dayNumber": 1,
+      "date": "2026-05-08",
+      "region": "Arrival + Myeongdong",
+      "titleHe": "נחיתה + מיונגדונג",
+      "heroImage": "/images/day-01.jpg",
+      "summaryHe": "נחיתה, צ׳ק-אין, וסיבוב היכרות ראשון במיונגדונג. ערב על רחובות הקניות ודוכני אוכל.",
+      "summaryEn": "Landing, check-in, first loop through Myeongdong. Evening of shopping streets and street-food stalls.",
+      "items": [
+        {
+          "kind": "note",
+          "id": "d1-n1",
+          "emoji": "✈️",
+          "textHe": "נחיתה ב-Incheon, הסעה למלון ב-Myeongdong",
+          "textEn": "Land at Incheon, transfer to hotel in Myeongdong"
+        },
+        {
+          "kind": "place",
+          "id": "d1-p1",
+          "timeOfDay": "evening",
+          "name": "Myeongdong Shopping Street",
+          "nameHe": "רחוב הקניות מיונגדונג",
+          "category": "street",
+          "foodLevel": "light",
+          "address": "Myeongdong-gil, Jung-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Myeongdong%20Shopping%20Street",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Myeongdong%20Shopping%20Street%20Seoul",
+          "openingHours": {
+            "notes": "Shops ~10:30-22:00; street-food stalls ~17:00-23:00"
+          },
+          "mustDo": true,
+          "notesHe": "דוכני אוכל רחוב בלילה, קניות, אווירה ראשונית של סיאול"
+        }
+      ]
+    },
+    {
+      "dayNumber": 2,
+      "date": "2026-05-09",
+      "region": "Gyeongbokgung + Bukchon + Insadong",
+      "titleHe": "ארמון + בוקצ׳ון + Insadong",
+      "heroImage": "/images/day-02.jpg",
+      "summaryHe": "בוקר בארמון הראשי, מעבר רגלי לבוקצ׳ון עם בתי האנוק, ואחר הצהריים-ערב ב-Insadong: Ssamziegil, בתי תה, מזכרות.",
+      "summaryEn": "Morning at the main palace, walk over to Bukchon's hanok alleys, and afternoon/evening in Insadong — Ssamziegil, tea houses, crafts.",
+      "items": [
+        {
+          "kind": "place",
+          "id": "d2-p1",
+          "timeOfDay": "morning",
+          "startTime": "09:00",
+          "durationMin": 150,
+          "name": "Gyeongbokgung Palace",
+          "nameHe": "ארמון גיונגבוקגונג",
+          "category": "palace",
+          "foodLevel": "none",
+          "address": "161 Sajik-ro, Jongno-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Gyeongbokgung%20Palace",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Gyeongbokgung%20Palace",
+          "websiteUrl": "https://royal.khs.go.kr/gbg",
+          "openingHours": {
+            "mon": "09:00-18:00",
+            "tue": "closed",
+            "wed": "09:00-18:00",
+            "thu": "09:00-18:00",
+            "fri": "09:00-18:00",
+            "sat": "09:00-18:00",
+            "sun": "09:00-18:00",
+            "notes": "Last entry 1h before closing; free if wearing hanbok"
+          },
+          "mustDo": true,
+          "notesHe": "הארמון הראשי של סיאול — חובה. אפשר להשכיר הנבוק ולהיכנס חינם."
+        },
+        {
+          "kind": "transport",
+          "id": "d2-t1",
+          "mode": "walk",
+          "durationMin": 18,
+          "fromTo": "Gyeongbokgung → Bukchon Hanok Village",
+          "notesHe": "הליכה נעימה דרך Samcheong-dong"
+        },
+        {
+          "kind": "place",
+          "id": "d2-p2",
+          "timeOfDay": "afternoon",
+          "name": "Bukchon Hanok Village",
+          "nameHe": "כפר האנוק בוקצ׳ון",
+          "category": "hanok",
+          "foodLevel": "light",
+          "address": "37, Gyedong-gil, Jongno-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Bukchon%20Hanok%20Village",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bukchon%20Hanok%20Village",
+          "openingHours": {
+            "notes": "Streets always open; residents ask quiet hours 11:00-17:00"
+          },
+          "mustDo": true,
+          "notesHe": "סמטאות בתי אנוק, תצפיות, בתי תה וקפה שקטים. לא להרעיש — זה שכונת מגורים."
+        },
+        {
+          "kind": "transport",
+          "id": "d2-t2",
+          "mode": "walk",
+          "durationMin": 12,
+          "fromTo": "Bukchon → Insadong"
+        },
+        {
+          "kind": "place",
+          "id": "d2-p3",
+          "timeOfDay": "afternoon",
+          "name": "Ssamziegil",
+          "nameHe": "Ssamziegil",
+          "category": "shopping",
+          "foodLevel": "light",
+          "address": "44 Insadong-gil, Jongno-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Ssamziegil",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ssamziegil%20Insadong",
+          "openingHours": {
+            "mon": "10:30-20:30",
+            "tue": "10:30-20:30",
+            "wed": "10:30-20:30",
+            "thu": "10:30-20:30",
+            "fri": "10:30-20:30",
+            "sat": "10:30-20:30",
+            "sun": "10:30-20:30"
+          },
+          "mustDo": true,
+          "notesHe": "מתחם חנויות עבודת יד ודברים מיוחדים — לב Insadong."
+        },
+        {
+          "kind": "place",
+          "id": "d2-p4",
+          "timeOfDay": "afternoon",
+          "name": "Insadong Street",
+          "nameHe": "רחוב Insadong",
+          "category": "street",
+          "foodLevel": "light",
+          "address": "Insadong-gil, Jongno-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Insadong-gil",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Insadong%20Seoul",
+          "openingHours": {
+            "notes": "Most shops ~10:00-21:00; pedestrian-only on weekends"
+          },
+          "notesHe": "אמנות, קליגרפיה, בתי תה, מזכרות איכותיות."
+        },
+        {
+          "kind": "place",
+          "id": "d2-p5",
+          "timeOfDay": "evening",
+          "name": "O'sulloc Tea House Insadong",
+          "nameHe": "בית תה O'sulloc",
+          "category": "cafe",
+          "foodLevel": "light",
+          "address": "170 Gwanhun-dong, Jongno-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/O%27sulloc%20Insadong",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=O%27sulloc%20Tea%20House%20Insadong",
+          "openingHours": {
+            "mon": "10:30-22:00",
+            "tue": "10:30-22:00",
+            "wed": "10:30-22:00",
+            "thu": "10:30-22:00",
+            "fri": "10:30-22:00",
+            "sat": "10:30-22:00",
+            "sun": "10:30-22:00"
+          },
+          "notesHe": "חוויית תה קוריאנית נקייה, מושלמת עם אמא."
+        }
+      ]
+    },
+    {
+      "dayNumber": 3,
+      "date": "2026-05-10",
+      "region": "Gwangjang Market + Ikseon-dong + Euljiro",
+      "titleHe": "שוק Gwangjang + איקסון-דונג + Euljiro",
+      "heroImage": "/images/day-03.jpg",
+      "summaryHe": "בוקר בשוק האוכל Gwangjang (בינדטוק, טוקבוקי), אחה״צ בסמטאות Ikseon-dong הטרנדיות, וערב בברים הקטנים של Euljiro-3-ga.",
+      "summaryEn": "Morning street food at Gwangjang Market, afternoon in Ikseon-dong's trendy hanok alleys, evening in Euljiro-3-ga's micro-bars.",
+      "items": [
+        {
+          "kind": "place",
+          "id": "d3-p1",
+          "timeOfDay": "morning",
+          "startTime": "10:00",
+          "durationMin": 120,
+          "name": "Gwangjang Market",
+          "nameHe": "שוק Gwangjang",
+          "category": "market",
+          "foodLevel": "heavy",
+          "address": "88 Changgyeonggung-ro, Jongno-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Gwangjang%20Market",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Gwangjang%20Market",
+          "websiteUrl": "https://www.kwangjangmarket.co.kr/",
+          "openingHours": {
+            "mon": "09:00-22:00",
+            "tue": "09:00-22:00",
+            "wed": "09:00-22:00",
+            "thu": "09:00-22:00",
+            "fri": "09:00-22:00",
+            "sat": "09:00-22:00",
+            "sun": "09:00-22:00",
+            "notes": "Food alley busiest 11:00-20:00; Sunday some textile sections closed"
+          },
+          "mustDo": true,
+          "notesHe": "בינדטוק (פנקייק שעועית), מייאקפאפ (קימבאפ חרדל), טוקבוקי. להתפוצץ מאכילה."
+        },
+        {
+          "kind": "transport",
+          "id": "d3-t1",
+          "mode": "walk",
+          "durationMin": 15,
+          "fromTo": "Gwangjang → Ikseon-dong"
+        },
+        {
+          "kind": "place",
+          "id": "d3-p2",
+          "timeOfDay": "afternoon",
+          "name": "Ikseon-dong Hanok Village",
+          "nameHe": "Ikseon-dong",
+          "category": "hanok",
+          "foodLevel": "light",
+          "address": "Donhwamun-ro 11-gil, Jongno-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Ikseon-dong",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ikseon-dong%20Hanok%20Village",
+          "openingHours": {
+            "notes": "Cafés/shops ~11:00-22:00; most closed Mondays"
+          },
+          "mustDo": true,
+          "notesHe": "סמטאות האנוק טרנדיות — קפה, מאפיות, מסעדות קטנות, ברים חמודים."
+        },
+        {
+          "kind": "transport",
+          "id": "d3-t2",
+          "mode": "walk",
+          "durationMin": 12,
+          "fromTo": "Ikseon-dong → Euljiro-3-ga"
+        },
+        {
+          "kind": "place",
+          "id": "d3-p3",
+          "timeOfDay": "evening",
+          "name": "Euljiro 3-ga Nogari Alley",
+          "nameHe": "Euljiro — סמטת נוגארי",
+          "category": "nightlife",
+          "foodLevel": "medium",
+          "address": "Euljiro 3-ga, Jung-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Euljiro%20Nogari%20Alley",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Euljiro%203ga%20Nogari%20Alley",
+          "openingHours": {
+            "notes": "Bars open ~17:00-01:00; liveliest 19:00-23:00"
+          },
+          "mustDo": true,
+          "notesHe": "ברים קטנים, אווירה מקומית, בירות ונוגארי (דג יבש). לא מועדון ענק."
+        }
+      ]
+    },
+    {
+      "dayNumber": 4,
+      "date": "2026-05-11",
+      "region": "Myeongdong — Beauty, Shopping & Dinner",
+      "titleHe": "ביוטי + שופינג + מסעדת ערב במיונגדונג",
+      "heroImage": "/images/day-04.jpg",
+      "summaryHe": "הכל ברגל ליד המלון: אוליב יאנג הפלגשיפ, כלבו לוטה + שינסאי, ומסעדת ערב טובה במיונגדונג.",
+      "summaryEn": "All walkable from the hotel: Olive Young flagship, Lotte and Shinsegae department stores, and a solid Myeongdong dinner.",
+      "items": [
+        {
+          "kind": "place",
+          "id": "d4-p1",
+          "timeOfDay": "morning",
+          "startTime": "10:30",
+          "name": "Olive Young Myeongdong Flagship",
+          "nameHe": "אוליב יאנג מיונגדונג פלגשיפ",
+          "category": "shopping",
+          "foodLevel": "none",
+          "address": "53, Myeongdong 8-gil, Jung-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Olive%20Young%20Myeongdong%20Flagship",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Olive%20Young%20Myeongdong%20Flagship",
+          "websiteUrl": "https://global.oliveyoung.com/",
+          "openingHours": {
+            "mon": "10:00-22:30",
+            "tue": "10:00-22:30",
+            "wed": "10:00-22:30",
+            "thu": "10:00-22:30",
+            "fri": "10:00-22:30",
+            "sat": "10:00-22:30",
+            "sun": "10:00-22:30"
+          },
+          "mustDo": true,
+          "notesHe": "כל קוסמטיקת קוריאה תחת קורת גג אחת, מחירים הוגנים, מסלול מע״מ לתיירים."
+        },
+        {
+          "kind": "place",
+          "id": "d4-p2",
+          "timeOfDay": "afternoon",
+          "name": "Lotte Department Store Main",
+          "nameHe": "כלבו לוטה מיונגדונג",
+          "category": "shopping",
+          "foodLevel": "medium",
+          "address": "81, Namdaemun-ro, Jung-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Lotte%20Department%20Store%20Main",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lotte%20Department%20Store%20Main%20Myeongdong",
+          "websiteUrl": "https://www.lotteshopping.com/",
+          "openingHours": {
+            "mon": "10:30-20:00",
+            "tue": "10:30-20:00",
+            "wed": "10:30-20:00",
+            "thu": "10:30-20:30",
+            "fri": "10:30-20:30",
+            "sat": "10:30-20:30",
+            "sun": "10:30-20:30",
+            "notes": "Some Mondays closed once a month — verify near trip"
+          }
+        },
+        {
+          "kind": "place",
+          "id": "d4-p3",
+          "timeOfDay": "afternoon",
+          "name": "Shinsegae Department Store Main",
+          "nameHe": "כלבו שינסאי — הראשי",
+          "category": "shopping",
+          "foodLevel": "medium",
+          "address": "63, Sogong-ro, Jung-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Shinsegae%20Department%20Store%20Main",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Shinsegae%20Department%20Store%20Main%20Seoul",
+          "websiteUrl": "https://www.shinsegae.com/",
+          "openingHours": {
+            "mon": "10:30-20:00",
+            "tue": "10:30-20:00",
+            "wed": "10:30-20:00",
+            "thu": "10:30-20:00",
+            "fri": "10:30-20:30",
+            "sat": "10:30-20:30",
+            "sun": "10:30-20:30"
+          }
+        },
+        {
+          "kind": "place",
+          "id": "d4-p4",
+          "timeOfDay": "evening",
+          "startTime": "18:30",
+          "name": "Myeongdong Kyoja",
+          "nameHe": "מיונגדונג קיוג׳ה",
+          "category": "restaurant",
+          "foodLevel": "medium",
+          "address": "29, Myeongdong 10-gil, Jung-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Myeongdong%20Kyoja",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Myeongdong%20Kyoja",
+          "websiteUrl": "https://mdkj.co.kr/",
+          "openingHours": {
+            "mon": "10:30-21:30",
+            "tue": "10:30-21:30",
+            "wed": "10:30-21:30",
+            "thu": "10:30-21:30",
+            "fri": "10:30-21:30",
+            "sat": "10:30-21:30",
+            "sun": "10:30-21:30",
+            "notes": "Bib Gourmand; last orders ~21:00; expect queue"
+          },
+          "mustDo": true,
+          "notesHe": "Kalguksu (אטריות ידיים) ומנדו, מישלן Bib Gourmand. בטוח טעים."
+        },
+        {
+          "kind": "note",
+          "id": "d4-n1",
+          "emoji": "🥩",
+          "textHe": "אופציית BBQ חלופית: Wangbijip Myeongdong — להגיע מוקדם כדי לא לחכות"
+        }
+      ]
+    },
+    {
+      "dayNumber": 5,
+      "date": "2026-05-12",
+      "region": "Incheon Day Trip",
+      "titleHe": "טיול יום לאינצ׳און",
+      "heroImage": "/images/day-05.jpg",
+      "summaryHe": "יום שלם באינצ׳און: Chinatown, כפר האגדות, Jayu Park, שוק סינפו (צ׳ייפג׳אנגמיון), וולמידו על הים, ו-Songdo אחה״צ.",
+      "summaryEn": "Full day in Incheon — Chinatown, Fairy Tale Village, Jayu Park, Sinpo Market (jjajangmyeon!), Wolmido seaside, Songdo Central Park.",
+      "items": [
+        {
+          "kind": "transport",
+          "id": "d5-t1",
+          "mode": "subway",
+          "durationMin": 75,
+          "fromTo": "Myeongdong → Incheon Station (Line 1)"
+        },
+        {
+          "kind": "place",
+          "id": "d5-p1",
+          "timeOfDay": "morning",
+          "name": "Incheon Chinatown",
+          "nameHe": "צ׳יינהטאון אינצ׳און",
+          "category": "street",
+          "foodLevel": "light",
+          "address": "Chinatown-ro, Jung-gu, Incheon",
+          "naverMapsUrl": "https://map.naver.com/p/search/Incheon%20Chinatown",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Incheon%20Chinatown",
+          "openingHours": {
+            "notes": "Streets always open; most shops/restaurants 10:00-21:00"
+          }
+        },
+        {
+          "kind": "place",
+          "id": "d5-p2",
+          "timeOfDay": "morning",
+          "name": "Songwol-dong Fairy Tale Village",
+          "nameHe": "כפר האגדות",
+          "category": "street",
+          "foodLevel": "none",
+          "address": "Songwol-dong, Jung-gu, Incheon",
+          "naverMapsUrl": "https://map.naver.com/p/search/Songwol-dong%20Fairy%20Tale%20Village",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Songwol-dong%20Fairy%20Tale%20Village%20Incheon",
+          "openingHours": {
+            "notes": "Outdoor street, always open"
+          }
+        },
+        {
+          "kind": "place",
+          "id": "d5-p3",
+          "timeOfDay": "morning",
+          "name": "Jayu Park",
+          "nameHe": "פארק Jayu",
+          "category": "park",
+          "foodLevel": "none",
+          "address": "25, Jayugongwonnam-ro, Jung-gu, Incheon",
+          "naverMapsUrl": "https://map.naver.com/p/search/Jayu%20Park%20Incheon",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Jayu%20Park%20Incheon",
+          "openingHours": {
+            "notes": "Park always open; best views in daytime"
+          }
+        },
+        {
+          "kind": "place",
+          "id": "d5-p4",
+          "timeOfDay": "afternoon",
+          "name": "Sinpo International Market",
+          "nameHe": "שוק Sinpo",
+          "category": "market",
+          "foodLevel": "heavy",
+          "address": "11-5 Uhyeon-ro 49beon-gil, Jung-gu, Incheon",
+          "naverMapsUrl": "https://map.naver.com/p/search/Sinpo%20International%20Market",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sinpo%20International%20Market",
+          "openingHours": {
+            "notes": "Stalls ~09:00-21:00; chicken-sweet-and-sour a local specialty"
+          },
+          "notesHe": "Jjajangmyeon (נודלס ברוטב שעועית שחורה) — חובה פה. גם Dakgangjeong."
+        },
+        {
+          "kind": "place",
+          "id": "d5-p5",
+          "timeOfDay": "afternoon",
+          "name": "Wolmido Seaside",
+          "nameHe": "וולמידו — הטיילת",
+          "category": "beach",
+          "foodLevel": "light",
+          "address": "Wolmi-ro, Jung-gu, Incheon",
+          "naverMapsUrl": "https://map.naver.com/p/search/Wolmido",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Wolmido%20Seaside",
+          "openingHours": {
+            "notes": "Promenade always open; rides/shops 10:00-22:00"
+          }
+        },
+        {
+          "kind": "place",
+          "id": "d5-p6",
+          "timeOfDay": "evening",
+          "name": "Songdo Central Park",
+          "nameHe": "סונגדו — הפארק המרכזי",
+          "category": "park",
+          "foodLevel": "none",
+          "address": "196, Techno-daero, Yeonsu-gu, Incheon",
+          "naverMapsUrl": "https://map.naver.com/p/search/Songdo%20Central%20Park",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Songdo%20Central%20Park",
+          "openingHours": {
+            "notes": "Always open; canal boats ~10:00-21:00"
+          }
+        },
+        {
+          "kind": "place",
+          "id": "d5-p7",
+          "timeOfDay": "evening",
+          "name": "NC Cube Canal Walk",
+          "nameHe": "NC Cube — קניון על התעלה",
+          "category": "shopping",
+          "foodLevel": "medium",
+          "address": "123, Convensia-daero, Yeonsu-gu, Incheon",
+          "naverMapsUrl": "https://map.naver.com/p/search/NC%20Cube%20Canal%20Walk",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=NC%20Cube%20Canal%20Walk%20Songdo",
+          "openingHours": {
+            "mon": "10:30-22:00",
+            "tue": "10:30-22:00",
+            "wed": "10:30-22:00",
+            "thu": "10:30-22:00",
+            "fri": "10:30-22:00",
+            "sat": "10:30-22:00",
+            "sun": "10:30-22:00"
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 6,
+      "date": "2026-05-13",
+      "region": "Seongsu-dong",
+      "titleHe": "סונגסו — טרנדי, קפה, מאפיות",
+      "heroImage": "/images/day-06.jpg",
+      "summaryHe": "מאפיית Salty Bread, Blue Elephant, פופ-אפים וקונספט סטורים, וסיום ב-Seoul Forest.",
+      "summaryEn": "Salty-bread bakery, Blue Elephant, rotating concept-store pop-ups, plus Seoul Forest to unwind.",
+      "items": [
+        {
+          "kind": "transport",
+          "id": "d6-t1",
+          "mode": "subway",
+          "durationMin": 35,
+          "fromTo": "Myeongdong → Seongsu (Line 2)"
+        },
+        {
+          "kind": "place",
+          "id": "d6-p1",
+          "timeOfDay": "morning",
+          "name": "Jayeondo Sogeumppang (Salty Bread)",
+          "nameHe": "Salty Bread",
+          "category": "bakery",
+          "foodLevel": "light",
+          "address": "35, Yeonmujang 13-gil, Seongdong-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Jayeondo%20Sogeumppang",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Jayeondo%20Sogeumppang%20Seongsu",
+          "openingHours": {
+            "mon": "09:00-21:00",
+            "tue": "09:00-21:00",
+            "wed": "09:00-21:00",
+            "thu": "09:00-21:00",
+            "fri": "09:00-21:00",
+            "sat": "09:00-21:00",
+            "sun": "09:00-21:00",
+            "notes": "Long queue on weekends; pastries sell out by afternoon"
+          },
+          "mustDo": true,
+          "notesHe": "המאפה המלוח של סיאול. להקדים."
+        },
+        {
+          "kind": "place",
+          "id": "d6-p2",
+          "timeOfDay": "afternoon",
+          "name": "Blue Elephant Seongsu",
+          "nameHe": "Blue Elephant סונגסו",
+          "category": "shopping",
+          "foodLevel": "none",
+          "address": "Seongsu-dong 2-ga, Seongdong-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Blue%20Elephant%20Seongsu",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Blue%20Elephant%20Seongsu",
+          "openingHours": {
+            "mon": "11:00-20:00",
+            "tue": "11:00-20:00",
+            "wed": "11:00-20:00",
+            "thu": "11:00-20:00",
+            "fri": "11:00-20:00",
+            "sat": "11:00-20:00",
+            "sun": "11:00-20:00"
+          }
+        },
+        {
+          "kind": "note",
+          "id": "d6-n1",
+          "emoji": "🛍️",
+          "textHe": "מומלץ לטייל חופשי בסמטאות — פופ-אפים וקונספט-סטורים מתחלפים כל חודש. בדקו את Common Ground ו-Under Stand Avenue.",
+          "textEn": "Wander freely — pop-ups rotate monthly. Try Common Ground and Under Stand Avenue."
+        },
+        {
+          "kind": "place",
+          "id": "d6-p3",
+          "timeOfDay": "afternoon",
+          "name": "Seoul Forest",
+          "nameHe": "יער סיאול",
+          "category": "park",
+          "foodLevel": "none",
+          "address": "273, Ttukseom-ro, Seongdong-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Seoul%20Forest",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Seoul%20Forest",
+          "openingHours": {
+            "notes": "Park always open; deer area 06:00-19:00"
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 7,
+      "date": "2026-05-14",
+      "region": "Apgujeong Rodeo + Dosan + Hannam-dong",
+      "titleHe": "יום יוקרה — Apgujeong Rodeo + Dosan + Hannam",
+      "heroImage": "/images/day-07.jpg",
+      "summaryHe": "אופנה, בוטיקים, Haus Dosan (Gentle Monster / Tamburins / Nudake) ואחר כך Hannam עם Blue Elephant.",
+      "summaryEn": "Luxury fashion on Apgujeong Rodeo, Haus Dosan (Gentle Monster + Tamburins + Nudake), and Hannam-dong's Blue Elephant + boutiques.",
+      "items": [
+        {
+          "kind": "transport",
+          "id": "d7-t1",
+          "mode": "subway",
+          "durationMin": 40,
+          "fromTo": "Myeongdong → Apgujeong Rodeo (Bundang Line / Line 3)"
+        },
+        {
+          "kind": "place",
+          "id": "d7-p1",
+          "timeOfDay": "morning",
+          "name": "Apgujeong Rodeo Street",
+          "nameHe": "רחוב Apgujeong Rodeo",
+          "category": "street",
+          "foodLevel": "light",
+          "address": "Apgujeong-ro, Gangnam-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Apgujeong%20Rodeo%20Street",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Apgujeong%20Rodeo%20Street",
+          "openingHours": {
+            "notes": "Boutiques ~11:00-21:00"
+          }
+        },
+        {
+          "kind": "place",
+          "id": "d7-p2",
+          "timeOfDay": "afternoon",
+          "name": "Haus Dosan (Gentle Monster)",
+          "nameHe": "Haus Dosan",
+          "category": "shopping",
+          "foodLevel": "none",
+          "address": "13, Apgujeong-ro 46-gil, Gangnam-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Haus%20Dosan",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Haus%20Dosan%20Gentle%20Monster",
+          "websiteUrl": "https://www.gentlemonster.com/kr/stores/haus-dosan",
+          "openingHours": {
+            "mon": "11:00-21:00",
+            "tue": "11:00-21:00",
+            "wed": "11:00-21:00",
+            "thu": "11:00-21:00",
+            "fri": "11:00-21:00",
+            "sat": "11:00-21:00",
+            "sun": "11:00-21:00"
+          },
+          "mustDo": true,
+          "notesHe": "חוויית שופינג שהיא גם אטרקציה — משקפיים, קוסמטיקה ו-Nudake באותו בניין."
+        },
+        {
+          "kind": "place",
+          "id": "d7-p3",
+          "timeOfDay": "afternoon",
+          "name": "Nudake Haus Dosan",
+          "nameHe": "Nudake",
+          "category": "bakery",
+          "foodLevel": "light",
+          "address": "13, Apgujeong-ro 46-gil, Gangnam-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Nudake%20Haus%20Dosan",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nudake%20Haus%20Dosan",
+          "openingHours": {
+            "mon": "11:00-21:00",
+            "tue": "11:00-21:00",
+            "wed": "11:00-21:00",
+            "thu": "11:00-21:00",
+            "fri": "11:00-21:00",
+            "sat": "11:00-21:00",
+            "sun": "11:00-21:00"
+          },
+          "notesHe": "קרואסון הפיסטוק Peak הוא אייקון של האזור."
+        },
+        {
+          "kind": "transport",
+          "id": "d7-t2",
+          "mode": "taxi",
+          "durationMin": 15,
+          "fromTo": "Haus Dosan → Hannam-dong"
+        },
+        {
+          "kind": "place",
+          "id": "d7-p4",
+          "timeOfDay": "afternoon",
+          "name": "Blue Elephant Hannam",
+          "nameHe": "Blue Elephant Hannam",
+          "category": "shopping",
+          "foodLevel": "none",
+          "address": "Hannam-dong, Yongsan-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Blue%20Elephant%20Hannam",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Blue%20Elephant%20Hannam",
+          "openingHours": {
+            "mon": "11:00-20:00",
+            "tue": "11:00-20:00",
+            "wed": "11:00-20:00",
+            "thu": "11:00-20:00",
+            "fri": "11:00-20:00",
+            "sat": "11:00-20:00",
+            "sun": "11:00-20:00"
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 8,
+      "date": "2026-05-15",
+      "region": "Busan — Haeundae",
+      "titleHe": "בוסאן — Haeundae",
+      "heroImage": "/images/day-08.jpg",
+      "summaryHe": "KTX לבוסאן בצהריים, צ׳ק-אין, ואחה״צ מושלם: חוף Haeundae, Dongbaekseom ושקיעה ב-The Bay 101.",
+      "summaryEn": "Midday KTX to Busan, check-in, then a perfect afternoon — Haeundae Beach, Dongbaekseom walk, sunset at The Bay 101.",
+      "items": [
+        {
+          "kind": "transport",
+          "id": "d8-t1",
+          "mode": "ktx",
+          "durationMin": 165,
+          "fromTo": "Seoul Station → Busan Station",
+          "notesHe": "להזמין כרטיסים מראש (Korail / KorailTalk)"
+        },
+        {
+          "kind": "place",
+          "id": "d8-p1",
+          "timeOfDay": "afternoon",
+          "name": "Haeundae Beach",
+          "nameHe": "חוף Haeundae",
+          "category": "beach",
+          "foodLevel": "medium",
+          "address": "Haeundaehaebyeon-ro, Haeundae-gu, Busan",
+          "naverMapsUrl": "https://map.naver.com/p/search/Haeundae%20Beach",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Haeundae%20Beach",
+          "openingHours": {
+            "notes": "Beach 24/7; swim season opens Jun 1 — May = walk-only"
+          },
+          "mustDo": true
+        },
+        {
+          "kind": "place",
+          "id": "d8-p2",
+          "timeOfDay": "evening",
+          "name": "Dongbaekseom (Dongbaek Island)",
+          "nameHe": "איי Dongbaek",
+          "category": "park",
+          "foodLevel": "none",
+          "address": "Dongbaek-ro, Haeundae-gu, Busan",
+          "naverMapsUrl": "https://map.naver.com/p/search/Dongbaekseom",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Dongbaekseom%20Busan",
+          "openingHours": {
+            "notes": "Outdoor trail always open; recommended before sunset"
+          },
+          "mustDo": true,
+          "notesHe": "מסלול קצר עם נופים מטורפים על Marine City."
+        },
+        {
+          "kind": "place",
+          "id": "d8-p3",
+          "timeOfDay": "night",
+          "name": "The Bay 101",
+          "nameHe": "The Bay 101",
+          "category": "viewpoint",
+          "foodLevel": "medium",
+          "address": "52, Dongbaek-ro, Haeundae-gu, Busan",
+          "naverMapsUrl": "https://map.naver.com/p/search/The%20Bay%20101",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Bay%20101%20Busan",
+          "websiteUrl": "https://www.thebay101.com/",
+          "openingHours": {
+            "mon": "10:00-24:00",
+            "tue": "10:00-24:00",
+            "wed": "10:00-24:00",
+            "thu": "10:00-24:00",
+            "fri": "10:00-01:00",
+            "sat": "10:00-01:00",
+            "sun": "10:00-24:00"
+          },
+          "mustDo": true,
+          "notesHe": "תצפית מטורפת של Marine City בלילה — אייקון של בוסאן."
+        }
+      ]
+    },
+    {
+      "dayNumber": 9,
+      "date": "2026-05-16",
+      "region": "Busan — Sky Capsule + BUSAN X the SKY + Yonggungsa",
+      "titleHe": "בוסאן — Sky Capsule + Busan X the Sky + מקדש על הים",
+      "heroImage": "/images/day-09.jpg",
+      "summaryHe": "Blueline Sky Capsule בבוקר, תצפית Busan X the Sky, ואחה״צ-ערב Haedong Yonggungsa לקראת שקיעה.",
+      "summaryEn": "Sky Capsule ride, Busan X the Sky observatory, then Haedong Yonggungsa seaside temple toward sunset.",
+      "items": [
+        {
+          "kind": "place",
+          "id": "d9-p1",
+          "timeOfDay": "morning",
+          "startTime": "09:30",
+          "name": "Haeundae Blueline Park Sky Capsule",
+          "nameHe": "Haeundae Sky Capsule",
+          "category": "viewpoint",
+          "foodLevel": "none",
+          "address": "30, Mipo 1-gil, Haeundae-gu, Busan",
+          "naverMapsUrl": "https://map.naver.com/p/search/Haeundae%20Sky%20Capsule",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Haeundae%20Sky%20Capsule",
+          "websiteUrl": "https://www.bluelinepark.com/",
+          "openingHours": {
+            "mon": "09:00-18:30",
+            "tue": "09:00-18:30",
+            "wed": "09:00-18:30",
+            "thu": "09:00-18:30",
+            "fri": "09:00-19:30",
+            "sat": "09:00-19:30",
+            "sun": "09:00-19:30",
+            "notes": "Book online in advance — capsules sell out"
+          },
+          "mustDo": true
+        },
+        {
+          "kind": "place",
+          "id": "d9-p2",
+          "timeOfDay": "afternoon",
+          "name": "BUSAN X the SKY",
+          "nameHe": "Busan X the Sky",
+          "category": "viewpoint",
+          "foodLevel": "none",
+          "address": "30, Dalmaji-gil, Haeundae-gu, Busan",
+          "naverMapsUrl": "https://map.naver.com/p/search/Busan%20X%20the%20Sky",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Busan%20X%20the%20Sky",
+          "websiteUrl": "https://www.busanxthesky.com/",
+          "openingHours": {
+            "mon": "10:00-21:00",
+            "tue": "10:00-21:00",
+            "wed": "10:00-21:00",
+            "thu": "10:00-21:00",
+            "fri": "10:00-22:00",
+            "sat": "10:00-22:00",
+            "sun": "10:00-21:00"
+          },
+          "mustDo": true
+        },
+        {
+          "kind": "transport",
+          "id": "d9-t1",
+          "mode": "taxi",
+          "durationMin": 30,
+          "fromTo": "Haeundae → Haedong Yonggungsa"
+        },
+        {
+          "kind": "place",
+          "id": "d9-p3",
+          "timeOfDay": "evening",
+          "name": "Haedong Yonggungsa Temple",
+          "nameHe": "מקדש על הים Haedong Yonggungsa",
+          "category": "temple",
+          "foodLevel": "none",
+          "address": "86, Yonggung-gil, Gijang-gun, Busan",
+          "naverMapsUrl": "https://map.naver.com/p/search/Haedong%20Yonggungsa",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Haedong%20Yonggungsa",
+          "websiteUrl": "https://www.yongkungsa.or.kr/",
+          "openingHours": {
+            "mon": "04:30-18:30",
+            "tue": "04:30-18:30",
+            "wed": "04:30-18:30",
+            "thu": "04:30-18:30",
+            "fri": "04:30-18:30",
+            "sat": "04:30-18:30",
+            "sun": "04:30-18:30",
+            "notes": "Best toward late afternoon before closing"
+          },
+          "mustDo": true,
+          "notesHe": "מקדש על הסלעים ממש מעל הים — אייקוני."
+        }
+      ]
+    },
+    {
+      "dayNumber": 10,
+      "date": "2026-05-17",
+      "region": "Busan — Nampo + Jagalchi + Gamcheon → KTX back",
+      "titleHe": "בוסאן — Nampo + Jagalchi + Gamcheon, חזרה לסיאול",
+      "heroImage": "/images/day-10.jpg",
+      "summaryHe": "שוק הדגים Jagalchi, BIFF Square, שופינג ב-Nampo-dong, וכפר התרבות Gamcheon. בערב KTX חזרה.",
+      "summaryEn": "Jagalchi fish market, BIFF Square, Nampo-dong shopping, Gamcheon Culture Village. Evening KTX back to Seoul.",
+      "items": [
+        {
+          "kind": "transport",
+          "id": "d10-t1",
+          "mode": "subway",
+          "durationMin": 45,
+          "fromTo": "Haeundae → Jagalchi (Line 2 → Line 1)"
+        },
+        {
+          "kind": "place",
+          "id": "d10-p1",
+          "timeOfDay": "morning",
+          "startTime": "10:00",
+          "name": "Jagalchi Market",
+          "nameHe": "שוק Jagalchi",
+          "category": "market",
+          "foodLevel": "heavy",
+          "address": "52 Jagalchihaean-ro, Jung-gu, Busan",
+          "naverMapsUrl": "https://map.naver.com/p/search/Jagalchi%20Market",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Jagalchi%20Market",
+          "websiteUrl": "https://jagalchimarket.bisco.or.kr/",
+          "openingHours": {
+            "mon": "05:00-22:00",
+            "tue": "05:00-22:00",
+            "wed": "05:00-22:00",
+            "thu": "05:00-22:00",
+            "fri": "05:00-22:00",
+            "sat": "05:00-22:00",
+            "sun": "05:00-22:00",
+            "notes": "Closes 1st and 3rd Tuesdays of the month"
+          },
+          "mustDo": true,
+          "notesHe": "שוק הדגים הגדול של קוריאה — אפשר לבחור דג ולאכול במסעדות שמעל."
+        },
+        {
+          "kind": "place",
+          "id": "d10-p2",
+          "timeOfDay": "afternoon",
+          "name": "BIFF Square",
+          "nameHe": "BIFF Square",
+          "category": "street",
+          "foodLevel": "medium",
+          "address": "BIFF Gwangjang-ro, Jung-gu, Busan",
+          "naverMapsUrl": "https://map.naver.com/p/search/BIFF%20Square",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=BIFF%20Square%20Busan",
+          "openingHours": {
+            "notes": "Street-food stalls ~11:00-23:00"
+          }
+        },
+        {
+          "kind": "place",
+          "id": "d10-p3",
+          "timeOfDay": "afternoon",
+          "name": "Nampo-dong Shopping Street",
+          "nameHe": "רחוב הקניות Nampo-dong",
+          "category": "shopping",
+          "foodLevel": "light",
+          "address": "Gwangbok-ro, Jung-gu, Busan",
+          "naverMapsUrl": "https://map.naver.com/p/search/Nampo-dong",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nampo-dong%20Busan",
+          "openingHours": {
+            "notes": "Most shops 10:30-22:00"
+          }
+        },
+        {
+          "kind": "transport",
+          "id": "d10-t2",
+          "mode": "bus",
+          "durationMin": 20,
+          "fromTo": "Nampo → Gamcheon (bus 2/2-2)"
+        },
+        {
+          "kind": "place",
+          "id": "d10-p4",
+          "timeOfDay": "afternoon",
+          "name": "Gamcheon Culture Village",
+          "nameHe": "כפר התרבות Gamcheon",
+          "category": "street",
+          "foodLevel": "light",
+          "address": "203, Gamnae 2-ro, Saha-gu, Busan",
+          "naverMapsUrl": "https://map.naver.com/p/search/Gamcheon%20Culture%20Village",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Gamcheon%20Culture%20Village",
+          "openingHours": {
+            "notes": "Village streets always open; info center 09:00-18:00"
+          },
+          "mustDo": true,
+          "notesHe": "\"סנטוריני של קוריאה\" — בתים צבעוניים על ההר."
+        },
+        {
+          "kind": "transport",
+          "id": "d10-t3",
+          "mode": "ktx",
+          "durationMin": 165,
+          "fromTo": "Busan Station → Seoul Station (evening)"
+        }
+      ]
+    },
+    {
+      "dayNumber": 11,
+      "date": "2026-05-18",
+      "region": "Gyeongdong Market + Dongmyo Flea Market",
+      "titleHe": "שווקים אותנטיים — Gyeongdong + Dongmyo",
+      "heroImage": "/images/day-11.jpg",
+      "summaryHe": "בוקר ב-Gyeongdong (ג׳ינסנג, תה, מרפא), אחה״צ בשוק הפשפשים Dongmyo.",
+      "summaryEn": "Morning at Gyeongdong (ginseng/tea/herbs), afternoon at Dongmyo flea market (vintage).",
+      "items": [
+        {
+          "kind": "transport",
+          "id": "d11-t1",
+          "mode": "subway",
+          "durationMin": 25,
+          "fromTo": "Myeongdong → Cheongnyangni (Gyeongdong)"
+        },
+        {
+          "kind": "place",
+          "id": "d11-p1",
+          "timeOfDay": "morning",
+          "name": "Gyeongdong Market",
+          "nameHe": "שוק Gyeongdong",
+          "category": "market",
+          "foodLevel": "light",
+          "address": "1 Gosanja-ro 36-gil, Dongdaemun-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Gyeongdong%20Market",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Gyeongdong%20Market",
+          "openingHours": {
+            "notes": "Most stalls 09:00-18:00; closed 1st and 3rd Sundays"
+          },
+          "notesHe": "שוק עשבי מרפא, ג׳ינסנג, תה — אופי שונה לגמרי מ-Gwangjang."
+        },
+        {
+          "kind": "transport",
+          "id": "d11-t2",
+          "mode": "subway",
+          "durationMin": 15,
+          "fromTo": "Cheongnyangni → Dongmyo"
+        },
+        {
+          "kind": "place",
+          "id": "d11-p2",
+          "timeOfDay": "afternoon",
+          "name": "Dongmyo Flea Market",
+          "nameHe": "שוק הפשפשים Dongmyo",
+          "category": "market",
+          "foodLevel": "medium",
+          "address": "Jongno 55-gil, Jongno-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Dongmyo%20Flea%20Market",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Dongmyo%20Flea%20Market",
+          "openingHours": {
+            "notes": "Daily ~10:00-18:00; liveliest Sat/Sun"
+          },
+          "notesHe": "וינטג׳, יד שניה, מוזרויות. מונדיי שקט יותר — שוקלים להחליף עם יום 12."
+        }
+      ]
+    },
+    {
+      "dayNumber": 12,
+      "date": "2026-05-19",
+      "region": "Flexible Day",
+      "titleHe": "יום גמיש",
+      "heroImage": "/images/day-12.jpg",
+      "summaryHe": "יום ללא תכנון מוחלט. שלוש אופציות: תוספות ל-Ikseon/Insadong, מוזיאון/היסטוריה, או קניות + Seoul Forest.",
+      "summaryEn": "Open day. Three options: more Ikseon/Insadong, a museum day, or shopping + Seoul Forest.",
+      "items": [
+        {
+          "kind": "note",
+          "id": "d12-n1",
+          "emoji": "💡",
+          "textHe": "אופציה A: חזרה ל-Ikseon-dong + Insadong להשלמות",
+          "textEn": "Option A: return to Ikseon-dong + Insadong to fill gaps"
+        },
+        {
+          "kind": "note",
+          "id": "d12-n2",
+          "emoji": "🏛️",
+          "textHe": "אופציה B: מוזיאון (National Museum of Korea / Leeum)",
+          "textEn": "Option B: museum day (National Museum of Korea / Leeum)"
+        },
+        {
+          "kind": "note",
+          "id": "d12-n3",
+          "emoji": "🌿",
+          "textHe": "אופציה C: Seoul Forest + קניות קלות",
+          "textEn": "Option C: Seoul Forest + light shopping"
+        }
+      ]
+    },
+    {
+      "dayNumber": 13,
+      "date": "2026-05-20",
+      "region": "Hongdae + Yeonnam + Mangwon",
+      "titleHe": "Hongdae + Yeonnam + Mangwon",
+      "heroImage": "/images/day-13.jpg",
+      "summaryHe": "Hongdae הצעיר, טוקבוקי ליד Mr. Toast, קפה שקט ב-Yeonnam, וסיום ב-Mangwon Market.",
+      "summaryEn": "Young Hongdae, tteokbokki stand by Mr. Toast, quiet Yeonnam coffee, ending at Mangwon Market.",
+      "items": [
+        {
+          "kind": "transport",
+          "id": "d13-t1",
+          "mode": "subway",
+          "durationMin": 30,
+          "fromTo": "Myeongdong → Hongik Univ. (Line 2)"
+        },
+        {
+          "kind": "place",
+          "id": "d13-p1",
+          "timeOfDay": "morning",
+          "name": "Hongdae Shopping Street",
+          "nameHe": "רחוב Hongdae",
+          "category": "street",
+          "foodLevel": "light",
+          "address": "Hongik-ro, Mapo-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Hongdae",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hongdae%20Shopping%20Street",
+          "openingHours": {
+            "notes": "Shops 11:00-22:00; street performances evenings"
+          }
+        },
+        {
+          "kind": "place",
+          "id": "d13-p2",
+          "timeOfDay": "afternoon",
+          "name": "Mr. Toast Hongdae",
+          "nameHe": "Mr. Toast",
+          "category": "street",
+          "foodLevel": "light",
+          "address": "Hongik-ro, Mapo-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Mr.Toast%20Hongdae",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mr%20Toast%20Hongdae",
+          "openingHours": {
+            "notes": "Stall ~11:00-22:00"
+          },
+          "notesHe": "הטוסט המפורסם + סטנד הטוקבוקי החריף ליד."
+        },
+        {
+          "kind": "place",
+          "id": "d13-p3",
+          "timeOfDay": "afternoon",
+          "name": "Yeonnam-dong",
+          "nameHe": "Yeonnam-dong",
+          "category": "street",
+          "foodLevel": "light",
+          "address": "Donggyo-ro, Mapo-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Yeonnam-dong",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Yeonnam-dong",
+          "openingHours": {
+            "notes": "Cafés 10:00-22:00; Gyeongui Line Forest Park always open"
+          }
+        },
+        {
+          "kind": "transport",
+          "id": "d13-t2",
+          "mode": "subway",
+          "durationMin": 8,
+          "fromTo": "Hongdae → Mangwon"
+        },
+        {
+          "kind": "place",
+          "id": "d13-p4",
+          "timeOfDay": "evening",
+          "name": "Mangwon Market",
+          "nameHe": "שוק Mangwon",
+          "category": "market",
+          "foodLevel": "medium",
+          "address": "14, Poeun-ro 8-gil, Mapo-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Mangwon%20Market",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mangwon%20Market",
+          "openingHours": {
+            "notes": "Stalls ~09:00-22:00; peak 17:00-21:00"
+          },
+          "mustDo": true,
+          "notesHe": "שוק אוכל מקומי — מעולה ללקט לפיקניק ליד נהר Hangang."
+        }
+      ]
+    },
+    {
+      "dayNumber": 14,
+      "date": "2026-05-21",
+      "region": "Namdaemun + Final Myeongdong Shopping",
+      "titleHe": "Namdaemun + קניות אחרונות ליד המלון",
+      "heroImage": "/images/day-14.jpg",
+      "summaryHe": "יום של מתנות והשלמות: Namdaemun בבוקר, Lotte + Shinsegae אחה״צ, וארוחת סיום במיונגדונג.",
+      "summaryEn": "Gifts and last-minute shopping: Namdaemun in the morning, Lotte + Shinsegae in the afternoon, farewell dinner in Myeongdong.",
+      "items": [
+        {
+          "kind": "place",
+          "id": "d14-p1",
+          "timeOfDay": "morning",
+          "startTime": "10:00",
+          "name": "Namdaemun Market",
+          "nameHe": "שוק Namdaemun",
+          "category": "market",
+          "foodLevel": "medium",
+          "address": "21 Namdaemunsijang 4-gil, Jung-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Namdaemun%20Market",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Namdaemun%20Market",
+          "websiteUrl": "https://www.namdaemunmarket.co.kr/",
+          "openingHours": {
+            "mon": "08:30-18:00",
+            "tue": "08:30-18:00",
+            "wed": "08:30-18:00",
+            "thu": "08:30-18:00",
+            "fri": "08:30-18:00",
+            "sat": "08:30-18:00",
+            "sun": "closed",
+            "notes": "Sections vary — wholesale opens earlier, some open late"
+          },
+          "mustDo": true,
+          "notesHe": "מתנות, כלי בית, חטיפים, גרביים — \"קוריאה אמיתית\"."
+        },
+        {
+          "kind": "place",
+          "id": "d14-p2",
+          "timeOfDay": "afternoon",
+          "name": "Lotte Department Store Main",
+          "nameHe": "כלבו לוטה מיונגדונג",
+          "category": "shopping",
+          "foodLevel": "medium",
+          "address": "81, Namdaemun-ro, Jung-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Lotte%20Department%20Store%20Main",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lotte%20Department%20Store%20Main%20Myeongdong",
+          "openingHours": {
+            "thu": "10:30-20:30",
+            "fri": "10:30-20:30",
+            "sat": "10:30-20:30",
+            "sun": "10:30-20:30",
+            "mon": "10:30-20:00",
+            "tue": "10:30-20:00",
+            "wed": "10:30-20:00"
+          }
+        },
+        {
+          "kind": "place",
+          "id": "d14-p3",
+          "timeOfDay": "afternoon",
+          "name": "Shinsegae Department Store Main",
+          "nameHe": "כלבו שינסאי",
+          "category": "shopping",
+          "foodLevel": "medium",
+          "address": "63, Sogong-ro, Jung-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Shinsegae%20Department%20Store%20Main",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Shinsegae%20Department%20Store%20Main%20Seoul",
+          "openingHours": {
+            "mon": "10:30-20:00",
+            "tue": "10:30-20:00",
+            "wed": "10:30-20:00",
+            "thu": "10:30-20:00",
+            "fri": "10:30-20:30",
+            "sat": "10:30-20:30",
+            "sun": "10:30-20:30"
+          }
+        },
+        {
+          "kind": "place",
+          "id": "d14-p4",
+          "timeOfDay": "evening",
+          "name": "Farewell Dinner — Myeongdong Kyoja",
+          "nameHe": "ארוחת סיום — Myeongdong Kyoja",
+          "category": "restaurant",
+          "foodLevel": "heavy",
+          "address": "29, Myeongdong 10-gil, Jung-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Myeongdong%20Kyoja",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Myeongdong%20Kyoja",
+          "openingHours": {
+            "mon": "10:30-21:30",
+            "tue": "10:30-21:30",
+            "wed": "10:30-21:30",
+            "thu": "10:30-21:30",
+            "fri": "10:30-21:30",
+            "sat": "10:30-21:30",
+            "sun": "10:30-21:30"
+          },
+          "notesHe": "או BBQ ב-Wangbijip — ארוחה אחרונה לפני הטיסה."
+        }
+      ]
+    },
+    {
+      "dayNumber": 15,
+      "date": "2026-05-22",
+      "region": "Flight Day (Evening Departure)",
+      "titleHe": "יום טיסה (ערב)",
+      "heroImage": "/images/day-15.jpg",
+      "summaryHe": "להשאיר מזוודות במלון, קפה אחרון וסיבוב קטן, יציאה לשדה בערב.",
+      "summaryEn": "Store luggage, last coffee, small loop, head to airport in the evening.",
+      "items": [
+        {
+          "kind": "note",
+          "id": "d15-n1",
+          "emoji": "🧳",
+          "textHe": "להשאיר מזוודות בלובי המלון",
+          "textEn": "Store luggage at hotel lobby"
+        },
+        {
+          "kind": "place",
+          "id": "d15-p1",
+          "timeOfDay": "morning",
+          "name": "Final Myeongdong Loop",
+          "nameHe": "סיבוב אחרון במיונגדונג",
+          "category": "street",
+          "foodLevel": "light",
+          "address": "Myeongdong-gil, Jung-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Myeongdong",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Myeongdong%20Seoul",
+          "openingHours": {
+            "notes": "Most cafés from 08:30"
+          },
+          "notesHe": "קפה אחרון, אוליב יאנג לאחרונה, אולי מזכרת אחרונה."
+        },
+        {
+          "kind": "note",
+          "id": "d15-n2",
+          "emoji": "🚆",
+          "textHe": "AREX או Airport Limousine לשדה Incheon — לתכנן 3-3.5 שעות לפני טיסה",
+          "textEn": "AREX or Airport Limousine to Incheon — leave 3-3.5h before flight"
+        }
+      ]
+    }
+  ]
+}

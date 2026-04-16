@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-from: #e0ecff;
+    --bg-via: #f3e8ff;
+    --bg-to: #ffe4e6;
+    --text: #0f172a;
+    --muted: #475569;
+    --glass: rgba(255, 255, 255, 0.55);
+    --glass-stroke: rgba(255, 255, 255, 0.35);
+    --glass-shadow: 0 8px 32px 0 rgba(15, 23, 42, 0.12);
+    color-scheme: light dark;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg-from: #0b1028;
+      --bg-via: #1a1040;
+      --bg-to: #231231;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --glass: rgba(20, 24, 40, 0.55);
+      --glass-stroke: rgba(255, 255, 255, 0.1);
+      --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.45);
+    }
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    margin: 0;
+    color: var(--text);
+    background:
+      radial-gradient(1200px 800px at 10% 0%, var(--bg-from), transparent 60%),
+      radial-gradient(1000px 700px at 90% 20%, var(--bg-via), transparent 60%),
+      radial-gradient(1400px 900px at 50% 100%, var(--bg-to), transparent 60%),
+      linear-gradient(180deg, var(--bg-from), var(--bg-to));
+    background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100dvh;
+  }
+
+  html[dir='rtl'] body {
+    font-family:
+      'Noto Sans Hebrew', 'Heebo', -apple-system, BlinkMacSystemFont,
+      'SF Pro Text', 'Segoe UI', Arial, sans-serif;
+  }
+}
+
+@layer components {
+  .glass {
+    background: var(--glass);
+    border: 1px solid var(--glass-stroke);
+    box-shadow: var(--glass-shadow);
+    backdrop-filter: blur(18px) saturate(140%);
+    -webkit-backdrop-filter: blur(18px) saturate(140%);
+  }
+
+  .glass-strong {
+    background: var(--glass);
+    border: 1px solid var(--glass-stroke);
+    box-shadow: var(--glass-shadow);
+    backdrop-filter: blur(28px) saturate(160%);
+    -webkit-backdrop-filter: blur(28px) saturate(160%);
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+}

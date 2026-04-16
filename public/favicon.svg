@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Korea Trip">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5b5bd6"/>
+      <stop offset="0.55" stop-color="#a855f7"/>
+      <stop offset="1" stop-color="#ec4899"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="0.3" cy="0.2" r="0.7">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="taegeuk">
+      <circle cx="256" cy="256" r="128"/>
+    </clipPath>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="112" fill="url(#shine)"/>
+  <circle cx="256" cy="256" r="132" fill="#fff" fill-opacity="0.94"/>
+  <g clip-path="url(#taegeuk)">
+    <path d="M256 128 a128 128 0 0 1 0 256 a64 64 0 0 1 0 -128 a64 64 0 0 0 0 -128 z" fill="#cd2e3a"/>
+    <path d="M256 128 a128 128 0 0 0 0 256 a64 64 0 0 0 0 -128 a64 64 0 0 1 0 -128 z" fill="#0047a0"/>
+  </g>
+</svg>
