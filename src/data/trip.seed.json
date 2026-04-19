@@ -36,6 +36,22 @@
           },
           "mustDo": true,
           "notesHe": "דוכני אוכל רחוב בלילה, קניות, אווירה ראשונית של סיאול"
+        },
+        {
+          "kind": "place",
+          "id": "d1-rec-cheonggyecheon",
+          "timeOfDay": "evening",
+          "name": "Cheonggyecheon Stream",
+          "nameHe": "נחל צ׳ונגגיצ׳ון",
+          "category": "park",
+          "foodLevel": "none",
+          "address": "Cheonggyecheon-ro, Jung-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Cheonggyecheon%20Stream",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cheonggyecheon%20Stream%20Seoul",
+          "openingHours": {
+            "notes": "Always open; תאורה יפה במיוחד בלילה"
+          },
+          "notesHe": "נחל עירוני רגוע שעובר במרכז סיאול, הליכה נעימה מהמלון. מואר יפה בלילה."
         }
       ]
     },
@@ -167,6 +183,54 @@
             "sun": "10:30-22:00"
           },
           "notesHe": "חוויית תה קוריאנית נקייה, מושלמת עם אמא."
+        },
+        {
+          "kind": "place",
+          "id": "d2-rec-tosokchon",
+          "timeOfDay": "afternoon",
+          "name": "Tosokchon Samgyetang",
+          "nameHe": "טוסוקצ׳ון סמגייטאנג",
+          "category": "restaurant",
+          "foodLevel": "heavy",
+          "address": "5, Jahamun-ro 5-gil, Jongno-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Tosokchon%20Samgyetang",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tosokchon%20Samgyetang",
+          "openingHours": {
+            "notes": "~10:00-22:00; תור ארוך בצהריים"
+          },
+          "notesHe": "מרק עוף בג׳ינסנג (סמגייטאנג) האייקוני של סיאול — ממש ליד הארמון. מומלץ כארוחת צהריים."
+        },
+        {
+          "kind": "place",
+          "id": "d2-rec-jogyesa",
+          "timeOfDay": "afternoon",
+          "name": "Jogyesa Temple",
+          "nameHe": "מקדש ג׳וגיסה",
+          "category": "temple",
+          "foodLevel": "none",
+          "address": "55, Ujeongguk-ro, Jongno-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Jogyesa%20Temple",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Jogyesa%20Temple%20Seoul",
+          "openingHours": {
+            "notes": "~04:00-21:00; פנסים צבעוניים סביב חגיגות יום הולדת בודהה (מאי)"
+          },
+          "notesHe": "המקדש המרכזי של הבודהיזם הזן הקוריאני — ממש ליד Insadong. במאי מעוטר בפנסים צבעוניים."
+        },
+        {
+          "kind": "place",
+          "id": "d2-rec-jahamun-ro",
+          "timeOfDay": "morning",
+          "name": "Jahamun-ro 2-gil (Seochon)",
+          "nameHe": "Jahamun-ro 2-gil — Seochon",
+          "category": "street",
+          "foodLevel": "light",
+          "address": "Jahamun-ro 2-gil, Jongno-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Jahamun-ro%202-gil",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Jahamun-ro%202-gil%20Seoul",
+          "openingHours": {
+            "notes": "רחוב פתוח; בתי קפה ~10:00-21:00"
+          },
+          "notesHe": "סמטה חמודה בשכונת Seochon ליד הארמון — בתי קפה קטנים, גלריות, בוטיקים, מקום יפה לצלם בהנבוק."
         }
       ]
     },
@@ -688,6 +752,55 @@
             "sat": "11:00-20:00",
             "sun": "11:00-20:00"
           }
+        },
+        {
+          "kind": "place",
+          "id": "d7-rec-starfield-library",
+          "timeOfDay": "morning",
+          "name": "Starfield Library COEX Mall",
+          "nameHe": "ספריית Starfield — COEX",
+          "category": "shopping",
+          "foodLevel": "light",
+          "address": "513, Yeongdong-daero, Gangnam-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Starfield%20Library%20COEX",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Starfield%20Library%20COEX%20Mall",
+          "openingHours": {
+            "notes": "בדרך כלל 10:30-22:00; הספרייה חלק מהקניון COEX"
+          },
+          "notesHe": "ספרייה פתוחה ענקית עם מדפים בגובה 13 מטר — אחת התמונות הכי אייקוניות של סיאול המודרנית. תחנת Samseong."
+        },
+        {
+          "kind": "place",
+          "id": "d7-rec-gangnam-kyoja",
+          "timeOfDay": "afternoon",
+          "name": "Gangnam Kyoja",
+          "nameHe": "גנגנאם קיוג׳ה",
+          "category": "restaurant",
+          "foodLevel": "heavy",
+          "address": "Gangnam-daero, Gangnam-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/Gangnam%20Kyoja",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Gangnam%20Kyoja%20%EA%B0%95%EB%82%A8%EA%B5%90%EC%9E%90",
+          "notesHe": "מומלצת מאד: אטריות קלגוקסו ומנדו בגנגנאם — גרסה של Myeongdong Kyoja באזור."
+        },
+        {
+          "kind": "place",
+          "id": "d7-rec-hannam-chicken",
+          "timeOfDay": "evening",
+          "name": "Hannam Oriental Roast Chicken",
+          "nameHe": "Hannam Oriental Roast Chicken",
+          "category": "restaurant",
+          "foodLevel": "heavy",
+          "address": "Hannam-dong, Yongsan-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/%ED%95%9C%EB%82%A8%EB%8F%99%ED%95%9C%EB%B0%A9%ED%86%B5%EB%8B%AD",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hannam%20Oriental%20Roast%20Chicken",
+          "notesHe": "עוף צלוי ברוטב עשבי מרפא קוריאניים (한방통닭) — קלאסיקה בהאנאם. מעולה לארוחת ערב."
+        },
+        {
+          "kind": "note",
+          "id": "d7-optrec-gangnam-style",
+          "emoji": "💃",
+          "textHe": "אופציונלי: פסל Gangnam Style ליד COEX — נקודת צילום מהירה לחובבי PSY",
+          "textEn": "Optional: Gangnam Style statue near COEX — quick photo spot for PSY fans"
         }
       ]
     },
@@ -764,6 +877,43 @@
           },
           "mustDo": true,
           "notesHe": "תצפית מטורפת של Marine City בלילה — אייקון של בוסאן."
+        },
+        {
+          "kind": "place",
+          "id": "d8-rec-haeridan",
+          "timeOfDay": "afternoon",
+          "name": "Haeridan-gil (Haeridan Street)",
+          "nameHe": "Haeridan-gil",
+          "category": "street",
+          "foodLevel": "medium",
+          "address": "Gunam-ro, Haeundae-gu, Busan",
+          "naverMapsUrl": "https://map.naver.com/p/search/%ED%95%B4%EB%A6%AC%EB%8B%A8%EA%B8%B8",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Haeridan%20Street%20Haeundae%20Busan",
+          "openingHours": {
+            "notes": "Cafés/shops ~11:00-22:00"
+          },
+          "notesHe": "ה-״Itaewon של בוסאן״ — רחוב טרנדי עם בתי קפה, ברים וחנויות קטנות ב-Haeundae. מושלם לפני השקיעה ב-Bay 101."
+        },
+        {
+          "kind": "note",
+          "id": "d8-optrec-taejongdae",
+          "emoji": "🌊",
+          "textHe": "אופציונלי: Taejongdae — Geoparks ונופי ים מטורפים בדרום בוסאן. חצי יום, מתאים אם מדלגים על אחת האטרקציות",
+          "textEn": "Optional: Taejongdae — seaside geoparks and cliff views in south Busan. Half-day add-on"
+        },
+        {
+          "kind": "note",
+          "id": "d8-optrec-yeongdo",
+          "emoji": "☕",
+          "textHe": "אופציונלי: Yeongdo — אי עם בתי קפה באווירת שנות ה-70 ונוף לים. שילוב טבעי עם Taejongdae",
+          "textEn": "Optional: Yeongdo island — cafés with 70s vibe and sea views. Pairs with Taejongdae"
+        },
+        {
+          "kind": "note",
+          "id": "d8-optrec-dongdaeshin",
+          "emoji": "🚠",
+          "textHe": "אופציונלי: Dong Daeshin Dong — כפר תרבות על גבעה עם מונורייל יחיד מסוגו בקוריאה ומדרגות צבעוניות",
+          "textEn": "Optional: Dong Daeshin Dong — hillside culture village with Korea's only stair-monorail"
         }
       ]
     },
@@ -955,6 +1105,19 @@
           "notesHe": "\"סנטוריני של קוריאה\" — בתים צבעוניים על ההר."
         },
         {
+          "kind": "place",
+          "id": "d10-rec-aoksaengwan",
+          "timeOfDay": "afternoon",
+          "name": "Aoksaengwan",
+          "nameHe": "Aoksaengwan (옥생관)",
+          "category": "restaurant",
+          "foodLevel": "heavy",
+          "address": "Chinatown, Jung-gu, Busan",
+          "naverMapsUrl": "https://map.naver.com/p/search/%EC%98%A5%EC%83%9D%EA%B4%80",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Aoksaengwan%20Busan",
+          "notesHe": "מסעדה סינית-קוריאנית ותיקה ב-Chinatown של בוסאן — ידועה לג׳ג׳אנגמיון וטאנגסויוק. טוב בין Jagalchi ל-Gamcheon."
+        },
+        {
           "kind": "transport",
           "id": "d10-t3",
           "mode": "ktx",
@@ -1049,6 +1212,34 @@
           "emoji": "🌿",
           "textHe": "אופציה C: Seoul Forest + קניות קלות",
           "textEn": "Option C: Seoul Forest + light shopping"
+        },
+        {
+          "kind": "note",
+          "id": "d12-optrec-ingwangsan",
+          "emoji": "🥾",
+          "textHe": "אופציונלי: הר Ingwangsan — טיול קל עם נוף על כל סיאול, מסלול לאורך חומת העיר הישנה (תחנת Gyeongbokgung יציאה 3, הליכה של 15 דק׳)",
+          "textEn": "Optional: Ingwangsan Mountain — easy hike with city views along old city wall (Gyeongbokgung Station Exit 3)"
+        },
+        {
+          "kind": "note",
+          "id": "d12-optrec-lotte-world",
+          "emoji": "🎢",
+          "textHe": "אופציונלי: Lotte World — פארק שעשועים ענק ב-Jamsil (מתאים אם רוצים יום כיף אחר). תחנת Jamsil קו 2/8",
+          "textEn": "Optional: Lotte World indoor theme park in Jamsil (if you want a fun park day)"
+        },
+        {
+          "kind": "note",
+          "id": "d12-optrec-seowonjuk",
+          "emoji": "🥣",
+          "textHe": "אופציונלי לארוחה קלה: Seowonjuk (서원죽) — ג׳וק (דייסת אורז קוריאנית) טעימה ומזינה. כמה סניפים ברחבי סיאול",
+          "textEn": "Optional light meal: Seowonjuk — Korean rice porridge (juk), comforting and healthy"
+        },
+        {
+          "kind": "note",
+          "id": "d12-optrec-creme-brulee-toast",
+          "emoji": "🍞",
+          "textHe": "אופציונלי: Creme Brûlée Toast @ Standard Bread — טוסט קרם ברולה כקינוח/חטיף, מהמקומיים המומלצים",
+          "textEn": "Optional treat: Creme Brûlée Toast at Standard Bread — top local recommendation"
         }
       ]
     },
@@ -1137,6 +1328,29 @@
           },
           "mustDo": true,
           "notesHe": "שוק אוכל מקומי — מעולה ללקט לפיקניק ליד נהר Hangang."
+        },
+        {
+          "kind": "place",
+          "id": "d13-rec-pokpo-cafe",
+          "timeOfDay": "afternoon",
+          "name": "Pokpo Cafe",
+          "nameHe": "Pokpo Cafe",
+          "category": "cafe",
+          "foodLevel": "light",
+          "address": "Hongje-dong, Seodaemun-gu, Seoul",
+          "naverMapsUrl": "https://map.naver.com/p/search/%ED%8F%AD%ED%8F%AC%EC%B9%B4%ED%8E%98",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pokpo%20Cafe%20Seoul",
+          "openingHours": {
+            "notes": "~11:00-21:00; תחנת Hongje יציאה 4 + מונית קצרה או 20 דק׳ הליכה"
+          },
+          "notesHe": "קפה ייחודי עם מפל מים אמיתי ליד הישיבה בחוץ — מקום שקט ויפה. לא רחוק מ-Hongdae."
+        },
+        {
+          "kind": "note",
+          "id": "d13-optrec-botanic-park",
+          "emoji": "🌱",
+          "textHe": "אופציונלי: Seoul Botanic Park ב-Magongnaru (קו 9) — חממה ענקית וצמחייה טרופית. נחמד לבוקר שקט לפני Hongdae",
+          "textEn": "Optional: Seoul Botanic Park at Magongnaru (Line 9) — giant greenhouse, tropical plants"
         }
       ]
     },
