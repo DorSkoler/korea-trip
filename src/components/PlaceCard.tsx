@@ -67,16 +67,25 @@ export function PlaceCard({
         ) : (
           <button
             type="button"
-            onClick={onToggleDone}
+            onPointerDown={(e) => e.stopPropagation()}
+            onClick={(e) => {
+              e.stopPropagation()
+              onToggleDone?.()
+            }}
             aria-pressed={done}
             aria-label={done ? t('place.markNotDone') : t('place.markDone')}
-            className={`mt-1 h-6 w-6 shrink-0 rounded-full border-2 transition-colors ${
-              done
-                ? 'bg-emerald-500 border-emerald-500 text-white'
-                : 'border-current opacity-50 hover:opacity-100'
-            }`}
+            style={{ touchAction: 'manipulation', WebkitTapHighlightColor: 'transparent' }}
+            className="-m-2 p-2 shrink-0 rounded-full grid place-items-center active:scale-95 transition-transform"
           >
-            {done ? '✓' : ''}
+            <span
+              className={`h-7 w-7 rounded-full border-2 grid place-items-center text-sm font-bold transition-colors ${
+                done
+                  ? 'bg-emerald-500 border-emerald-500 text-white'
+                  : 'border-current opacity-60'
+              }`}
+            >
+              {done ? '✓' : ''}
+            </span>
           </button>
         )}
 
