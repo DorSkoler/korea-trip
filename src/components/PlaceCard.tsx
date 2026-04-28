@@ -86,6 +86,11 @@ export function PlaceCard({
 
         <div className="min-w-0 flex-1">
           <div className="flex items-baseline gap-2 flex-wrap" dir="ltr">
+            {!editMode && place.startTime && (
+              <span className="text-lg font-bold tabular-nums shrink-0">
+                {place.startTime}
+              </span>
+            )}
             <span className="text-xl shrink-0" aria-hidden>
               {icon}
             </span>
@@ -103,6 +108,17 @@ export function PlaceCard({
               <h3 className="text-lg font-semibold tracking-tight leading-tight">
                 {place.name}
               </h3>
+            )}
+            {!editMode && place.durationMin && (
+              <span
+                className="text-xs opacity-60 tabular-nums shrink-0"
+                dir="ltr"
+              >
+                · ~
+                {place.durationMin >= 60
+                  ? `${Math.round(place.durationMin / 60)}h`
+                  : `${place.durationMin}m`}
+              </span>
             )}
             {editMode ? (
               <button

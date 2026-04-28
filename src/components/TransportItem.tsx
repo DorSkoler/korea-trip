@@ -13,25 +13,26 @@ export function TransportItem({ item }: Props) {
   const note = pick(lang, item.notesHe, item.notesEn)
   return (
     <div
-      className="flex items-center gap-2 text-xs opacity-70 py-1.5"
+      className="mx-10 flex items-center gap-2 text-xs opacity-70"
       role="note"
     >
       <span aria-hidden className="text-base">
         {icon}
       </span>
+      {item.durationMin && (
+        <span dir="ltr" className="font-medium tabular-nums">
+          {item.durationMin} min
+          {item.mode === 'ktx' ? ' · KTX' : ''}
+        </span>
+      )}
       {item.fromTo && (
         <span className="truncate" dir="ltr" lang="en">
-          {item.fromTo}
+          · {item.fromTo}
         </span>
       )}
       {note && (
         <span className="truncate opacity-80">
           · {note}
-        </span>
-      )}
-      {item.mode === 'ktx' && (
-        <span className="text-[10px] opacity-70" dir="ltr">
-          KTX
         </span>
       )}
     </div>

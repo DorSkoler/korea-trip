@@ -35,7 +35,8 @@
             "notes": "Shops ~10:30-22:00; street-food stalls ~17:00-23:00"
           },
           "mustDo": true,
-          "notesHe": "דוכני אוכל רחוב בלילה, קניות, אווירה ראשונית של סיאול"
+          "notesHe": "דוכני אוכל רחוב בלילה, קניות, אווירה ראשונית של סיאול",
+          "startTime": "18:00"
         },
         {
           "kind": "place",
@@ -51,7 +52,8 @@
           "openingHours": {
             "notes": "Always open; תאורה יפה במיוחד בלילה"
           },
-          "notesHe": "נחל עירוני רגוע שעובר במרכז סיאול, הליכה נעימה מהמלון. מואר יפה בלילה."
+          "notesHe": "נחל עירוני רגוע שעובר במרכז סיאול, הליכה נעימה מהמלון. מואר יפה בלילה.",
+          "startTime": "19:30"
         }
       ]
     },
@@ -114,7 +116,8 @@
             "notes": "Streets always open; residents ask quiet hours 11:00-17:00"
           },
           "mustDo": true,
-          "notesHe": "סמטאות בתי אנוק, תצפיות, בתי תה וקפה שקטים. לא להרעיש — זה שכונת מגורים."
+          "notesHe": "סמטאות בתי אנוק, תצפיות, בתי תה וקפה שקטים. לא להרעיש — זה שכונת מגורים.",
+          "startTime": "13:00"
         },
         {
           "kind": "transport",
@@ -144,7 +147,8 @@
             "sun": "10:30-20:30"
           },
           "mustDo": true,
-          "notesHe": "מתחם חנויות עבודת יד ודברים מיוחדים — לב Insadong."
+          "notesHe": "מתחם חנויות עבודת יד ודברים מיוחדים — לב Insadong.",
+          "startTime": "14:30"
         },
         {
           "kind": "place",
@@ -160,7 +164,8 @@
           "openingHours": {
             "notes": "Most shops ~10:00-21:00; pedestrian-only on weekends"
           },
-          "notesHe": "אמנות, קליגרפיה, בתי תה, מזכרות איכותיות."
+          "notesHe": "אמנות, קליגרפיה, בתי תה, מזכרות איכותיות.",
+          "startTime": "16:00"
         },
         {
           "kind": "place",
@@ -182,7 +187,8 @@
             "sat": "10:30-22:00",
             "sun": "10:30-22:00"
           },
-          "notesHe": "חוויית תה קוריאנית נקייה, מושלמת עם אמא."
+          "notesHe": "חוויית תה קוריאנית נקייה, מושלמת עם אמא.",
+          "startTime": "18:00"
         },
         {
           "kind": "place",
@@ -198,7 +204,8 @@
           "openingHours": {
             "notes": "~10:00-22:00; תור ארוך בצהריים"
           },
-          "notesHe": "מרק עוף בג׳ינסנג (סמגייטאנג) האייקוני של סיאול — ממש ליד הארמון. מומלץ כארוחת צהריים."
+          "notesHe": "מרק עוף בג׳ינסנג (סמגייטאנג) האייקוני של סיאול — ממש ליד הארמון. מומלץ כארוחת צהריים.",
+          "startTime": "17:30"
         },
         {
           "kind": "place",
@@ -214,7 +221,8 @@
           "openingHours": {
             "notes": "~04:00-21:00; פנסים צבעוניים סביב חגיגות יום הולדת בודהה (מאי)"
           },
-          "notesHe": "המקדש המרכזי של הבודהיזם הזן הקוריאני — ממש ליד Insadong. במאי מעוטר בפנסים צבעוניים."
+          "notesHe": "המקדש המרכזי של הבודהיזם הזן הקוריאני — ממש ליד Insadong. במאי מעוטר בפנסים צבעוניים.",
+          "startTime": "19:00"
         },
         {
           "kind": "place",
@@ -230,7 +238,8 @@
           "openingHours": {
             "notes": "רחוב פתוח; בתי קפה ~10:00-21:00"
           },
-          "notesHe": "סמטה חמודה בשכונת Seochon ליד הארמון — בתי קפה קטנים, גלריות, בוטיקים, מקום יפה לצלם בהנבוק."
+          "notesHe": "סמטה חמודה בשכונת Seochon ליד הארמון — בתי קפה קטנים, גלריות, בוטיקים, מקום יפה לצלם בהנבוק.",
+          "startTime": "11:30"
         }
       ]
     },
@@ -292,7 +301,8 @@
             "notes": "Cafés/shops ~11:00-22:00; most closed Mondays"
           },
           "mustDo": true,
-          "notesHe": "סמטאות האנוק טרנדיות — קפה, מאפיות, מסעדות קטנות, ברים חמודים."
+          "notesHe": "סמטאות האנוק טרנדיות — קפה, מאפיות, מסעדות קטנות, ברים חמודים.",
+          "startTime": "13:00"
         },
         {
           "kind": "transport",
@@ -316,7 +326,8 @@
             "notes": "Bars open ~17:00-01:00; liveliest 19:00-23:00"
           },
           "mustDo": true,
-          "notesHe": "ברים קטנים, אווירה מקומית, בירות ונוגארי (דג יבש). לא מועדון ענק."
+          "notesHe": "ברים קטנים, אווירה מקומית, בירות ונוגארי (דג יבש). לא מועדון ענק.",
+          "startTime": "18:00"
         }
       ]
     },
@@ -375,7 +386,8 @@
             "sat": "10:30-20:30",
             "sun": "10:30-20:30",
             "notes": "Some Mondays closed once a month — verify near trip"
-          }
+          },
+          "startTime": "13:00"
         },
         {
           "kind": "place",
@@ -397,7 +409,8 @@
             "fri": "10:30-20:30",
             "sat": "10:30-20:30",
             "sun": "10:30-20:30"
-          }
+          },
+          "startTime": "14:30"
         },
         {
           "kind": "place",
@@ -462,7 +475,8 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Incheon%20Chinatown",
           "openingHours": {
             "notes": "Streets always open; most shops/restaurants 10:00-21:00"
-          }
+          },
+          "startTime": "09:00"
         },
         {
           "kind": "place",
@@ -477,7 +491,8 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Songwol-dong%20Fairy%20Tale%20Village%20Incheon",
           "openingHours": {
             "notes": "Outdoor street, always open"
-          }
+          },
+          "startTime": "10:30"
         },
         {
           "kind": "place",
@@ -492,7 +507,8 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Jayu%20Park%20Incheon",
           "openingHours": {
             "notes": "Park always open; best views in daytime"
-          }
+          },
+          "startTime": "12:00"
         },
         {
           "kind": "place",
@@ -508,7 +524,8 @@
           "openingHours": {
             "notes": "Stalls ~09:00-21:00; chicken-sweet-and-sour a local specialty"
           },
-          "notesHe": "Jjajangmyeon (נודלס ברוטב שעועית שחורה) — חובה פה. גם Dakgangjeong."
+          "notesHe": "Jjajangmyeon (נודלס ברוטב שעועית שחורה) — חובה פה. גם Dakgangjeong.",
+          "startTime": "13:00"
         },
         {
           "kind": "place",
@@ -523,7 +540,8 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Wolmido%20Seaside",
           "openingHours": {
             "notes": "Promenade always open; rides/shops 10:00-22:00"
-          }
+          },
+          "startTime": "14:30"
         },
         {
           "kind": "place",
@@ -538,7 +556,8 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Songdo%20Central%20Park",
           "openingHours": {
             "notes": "Always open; canal boats ~10:00-21:00"
-          }
+          },
+          "startTime": "18:00"
         },
         {
           "kind": "place",
@@ -559,7 +578,8 @@
             "fri": "10:30-22:00",
             "sat": "10:30-22:00",
             "sun": "10:30-22:00"
-          }
+          },
+          "startTime": "19:30"
         }
       ]
     },
@@ -601,7 +621,8 @@
             "notes": "Long queue on weekends; pastries sell out by afternoon"
           },
           "mustDo": true,
-          "notesHe": "המאפה המלוח של סיאול. להקדים."
+          "notesHe": "המאפה המלוח של סיאול. להקדים.",
+          "startTime": "09:00"
         },
         {
           "kind": "place",
@@ -622,7 +643,8 @@
             "fri": "11:00-20:00",
             "sat": "11:00-20:00",
             "sun": "11:00-20:00"
-          }
+          },
+          "startTime": "13:00"
         },
         {
           "kind": "note",
@@ -644,7 +666,8 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Seoul%20Forest",
           "openingHours": {
             "notes": "Park always open; deer area 06:00-19:00"
-          }
+          },
+          "startTime": "14:30"
         }
       ]
     },
@@ -677,7 +700,8 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Apgujeong%20Rodeo%20Street",
           "openingHours": {
             "notes": "Boutiques ~11:00-21:00"
-          }
+          },
+          "startTime": "09:00"
         },
         {
           "kind": "place",
@@ -701,7 +725,8 @@
             "sun": "11:00-21:00"
           },
           "mustDo": true,
-          "notesHe": "חוויית שופינג שהיא גם אטרקציה — משקפיים, קוסמטיקה ו-Nudake באותו בניין."
+          "notesHe": "חוויית שופינג שהיא גם אטרקציה — משקפיים, קוסמטיקה ו-Nudake באותו בניין.",
+          "startTime": "13:00"
         },
         {
           "kind": "place",
@@ -723,7 +748,8 @@
             "sat": "11:00-21:00",
             "sun": "11:00-21:00"
           },
-          "notesHe": "קרואסון הפיסטוק Peak הוא אייקון של האזור."
+          "notesHe": "קרואסון הפיסטוק Peak הוא אייקון של האזור.",
+          "startTime": "14:30"
         },
         {
           "kind": "transport",
@@ -751,7 +777,8 @@
             "fri": "11:00-20:00",
             "sat": "11:00-20:00",
             "sun": "11:00-20:00"
-          }
+          },
+          "startTime": "16:00"
         },
         {
           "kind": "place",
@@ -767,7 +794,8 @@
           "openingHours": {
             "notes": "בדרך כלל 10:30-22:00; הספרייה חלק מהקניון COEX"
           },
-          "notesHe": "ספרייה פתוחה ענקית עם מדפים בגובה 13 מטר — אחת התמונות הכי אייקוניות של סיאול המודרנית. תחנת Samseong."
+          "notesHe": "ספרייה פתוחה ענקית עם מדפים בגובה 13 מטר — אחת התמונות הכי אייקוניות של סיאול המודרנית. תחנת Samseong.",
+          "startTime": "10:30"
         },
         {
           "kind": "place",
@@ -780,7 +808,8 @@
           "address": "Gangnam-daero, Gangnam-gu, Seoul",
           "naverMapsUrl": "https://map.naver.com/p/search/Gangnam%20Kyoja",
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Gangnam%20Kyoja%20%EA%B0%95%EB%82%A8%EA%B5%90%EC%9E%90",
-          "notesHe": "מומלצת מאד: אטריות קלגוקסו ומנדו בגנגנאם — גרסה של Myeongdong Kyoja באזור."
+          "notesHe": "מומלצת מאד: אטריות קלגוקסו ומנדו בגנגנאם — גרסה של Myeongdong Kyoja באזור.",
+          "startTime": "17:30"
         },
         {
           "kind": "place",
@@ -793,7 +822,8 @@
           "address": "Hannam-dong, Yongsan-gu, Seoul",
           "naverMapsUrl": "https://map.naver.com/p/search/%ED%95%9C%EB%82%A8%EB%8F%99%ED%95%9C%EB%B0%A9%ED%86%B5%EB%8B%AD",
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hannam%20Oriental%20Roast%20Chicken",
-          "notesHe": "עוף צלוי ברוטב עשבי מרפא קוריאניים (한방통닭) — קלאסיקה בהאנאם. מעולה לארוחת ערב."
+          "notesHe": "עוף צלוי ברוטב עשבי מרפא קוריאניים (한방통닭) — קלאסיקה בהאנאם. מעולה לארוחת ערב.",
+          "startTime": "18:00"
         },
         {
           "kind": "note",
@@ -835,7 +865,8 @@
           "openingHours": {
             "notes": "Beach 24/7; swim season opens Jun 1 — May = walk-only"
           },
-          "mustDo": true
+          "mustDo": true,
+          "startTime": "13:00"
         },
         {
           "kind": "place",
@@ -852,7 +883,8 @@
             "notes": "Outdoor trail always open; recommended before sunset"
           },
           "mustDo": true,
-          "notesHe": "מסלול קצר עם נופים מטורפים על Marine City."
+          "notesHe": "מסלול קצר עם נופים מטורפים על Marine City.",
+          "startTime": "18:00"
         },
         {
           "kind": "place",
@@ -876,7 +908,8 @@
             "sun": "10:00-24:00"
           },
           "mustDo": true,
-          "notesHe": "תצפית מטורפת של Marine City בלילה — אייקון של בוסאן."
+          "notesHe": "תצפית מטורפת של Marine City בלילה — אייקון של בוסאן.",
+          "startTime": "22:00"
         },
         {
           "kind": "place",
@@ -892,7 +925,8 @@
           "openingHours": {
             "notes": "Cafés/shops ~11:00-22:00"
           },
-          "notesHe": "ה-״Itaewon של בוסאן״ — רחוב טרנדי עם בתי קפה, ברים וחנויות קטנות ב-Haeundae. מושלם לפני השקיעה ב-Bay 101."
+          "notesHe": "ה-״Itaewon של בוסאן״ — רחוב טרנדי עם בתי קפה, ברים וחנויות קטנות ב-Haeundae. מושלם לפני השקיעה ב-Bay 101.",
+          "startTime": "14:30"
         },
         {
           "kind": "note",
@@ -972,7 +1006,8 @@
             "sat": "10:00-22:00",
             "sun": "10:00-21:00"
           },
-          "mustDo": true
+          "mustDo": true,
+          "startTime": "13:00"
         },
         {
           "kind": "transport",
@@ -1004,7 +1039,8 @@
             "notes": "Best toward late afternoon before closing"
           },
           "mustDo": true,
-          "notesHe": "מקדש על הסלעים ממש מעל הים — אייקוני."
+          "notesHe": "מקדש על הסלעים ממש מעל הים — אייקוני.",
+          "startTime": "18:00"
         }
       ]
     },
@@ -1063,7 +1099,8 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=BIFF%20Square%20Busan",
           "openingHours": {
             "notes": "Street-food stalls ~11:00-23:00"
-          }
+          },
+          "startTime": "13:00"
         },
         {
           "kind": "place",
@@ -1078,7 +1115,8 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nampo-dong%20Busan",
           "openingHours": {
             "notes": "Most shops 10:30-22:00"
-          }
+          },
+          "startTime": "14:30"
         },
         {
           "kind": "transport",
@@ -1102,7 +1140,8 @@
             "notes": "Village streets always open; info center 09:00-18:00"
           },
           "mustDo": true,
-          "notesHe": "\"סנטוריני של קוריאה\" — בתים צבעוניים על ההר."
+          "notesHe": "\"סנטוריני של קוריאה\" — בתים צבעוניים על ההר.",
+          "startTime": "16:00"
         },
         {
           "kind": "place",
@@ -1115,7 +1154,8 @@
           "address": "Chinatown, Jung-gu, Busan",
           "naverMapsUrl": "https://map.naver.com/p/search/%EC%98%A5%EC%83%9D%EA%B4%80",
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Aoksaengwan%20Busan",
-          "notesHe": "מסעדה סינית-קוריאנית ותיקה ב-Chinatown של בוסאן — ידועה לג׳ג׳אנגמיון וטאנגסויוק. טוב בין Jagalchi ל-Gamcheon."
+          "notesHe": "מסעדה סינית-קוריאנית ותיקה ב-Chinatown של בוסאן — ידועה לג׳ג׳אנגמיון וטאנגסויוק. טוב בין Jagalchi ל-Gamcheon.",
+          "startTime": "17:30"
         },
         {
           "kind": "transport",
@@ -1156,7 +1196,8 @@
           "openingHours": {
             "notes": "Most stalls 09:00-18:00; closed 1st and 3rd Sundays"
           },
-          "notesHe": "שוק עשבי מרפא, ג׳ינסנג, תה — אופי שונה לגמרי מ-Gwangjang."
+          "notesHe": "שוק עשבי מרפא, ג׳ינסנג, תה — אופי שונה לגמרי מ-Gwangjang.",
+          "startTime": "09:00"
         },
         {
           "kind": "transport",
@@ -1179,7 +1220,8 @@
           "openingHours": {
             "notes": "Daily ~10:00-18:00; liveliest Sat/Sun"
           },
-          "notesHe": "וינטג׳, יד שניה, מוזרויות. מונדיי שקט יותר — שוקלים להחליף עם יום 12."
+          "notesHe": "וינטג׳, יד שניה, מוזרויות. מונדיי שקט יותר — שוקלים להחליף עם יום 12.",
+          "startTime": "13:00"
         }
       ]
     },
@@ -1272,7 +1314,8 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hongdae%20Shopping%20Street",
           "openingHours": {
             "notes": "Shops 11:00-22:00; street performances evenings"
-          }
+          },
+          "startTime": "09:00"
         },
         {
           "kind": "place",
@@ -1288,7 +1331,8 @@
           "openingHours": {
             "notes": "Stall ~11:00-22:00"
           },
-          "notesHe": "הטוסט המפורסם + סטנד הטוקבוקי החריף ליד."
+          "notesHe": "הטוסט המפורסם + סטנד הטוקבוקי החריף ליד.",
+          "startTime": "13:00"
         },
         {
           "kind": "place",
@@ -1303,7 +1347,8 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Yeonnam-dong",
           "openingHours": {
             "notes": "Cafés 10:00-22:00; Gyeongui Line Forest Park always open"
-          }
+          },
+          "startTime": "14:30"
         },
         {
           "kind": "transport",
@@ -1327,7 +1372,8 @@
             "notes": "Stalls ~09:00-22:00; peak 17:00-21:00"
           },
           "mustDo": true,
-          "notesHe": "שוק אוכל מקומי — מעולה ללקט לפיקניק ליד נהר Hangang."
+          "notesHe": "שוק אוכל מקומי — מעולה ללקט לפיקניק ליד נהר Hangang.",
+          "startTime": "18:00"
         },
         {
           "kind": "place",
@@ -1343,7 +1389,8 @@
           "openingHours": {
             "notes": "~11:00-21:00; תחנת Hongje יציאה 4 + מונית קצרה או 20 דק׳ הליכה"
           },
-          "notesHe": "קפה ייחודי עם מפל מים אמיתי ליד הישיבה בחוץ — מקום שקט ויפה. לא רחוק מ-Hongdae."
+          "notesHe": "קפה ייחודי עם מפל מים אמיתי ליד הישיבה בחוץ — מקום שקט ויפה. לא רחוק מ-Hongdae.",
+          "startTime": "16:00"
         },
         {
           "kind": "note",
@@ -1408,7 +1455,8 @@
             "mon": "10:30-20:00",
             "tue": "10:30-20:00",
             "wed": "10:30-20:00"
-          }
+          },
+          "startTime": "13:00"
         },
         {
           "kind": "place",
@@ -1429,7 +1477,8 @@
             "fri": "10:30-20:30",
             "sat": "10:30-20:30",
             "sun": "10:30-20:30"
-          }
+          },
+          "startTime": "14:30"
         },
         {
           "kind": "place",
@@ -1451,7 +1500,8 @@
             "sat": "10:30-21:30",
             "sun": "10:30-21:30"
           },
-          "notesHe": "או BBQ ב-Wangbijip — ארוחה אחרונה לפני הטיסה."
+          "notesHe": "או BBQ ב-Wangbijip — ארוחה אחרונה לפני הטיסה.",
+          "startTime": "18:00"
         }
       ]
     },
@@ -1485,7 +1535,8 @@
           "openingHours": {
             "notes": "Most cafés from 08:30"
           },
-          "notesHe": "קפה אחרון, אוליב יאנג לאחרונה, אולי מזכרת אחרונה."
+          "notesHe": "קפה אחרון, אוליב יאנג לאחרונה, אולי מזכרת אחרונה.",
+          "startTime": "09:00"
         },
         {
           "kind": "note",
