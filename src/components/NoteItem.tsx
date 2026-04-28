@@ -12,11 +12,11 @@ export function NoteItem({ item }: Props) {
   if (!text) return null
   return (
     <div
-      className="glass rounded-2xl px-4 py-3 mx-2 my-2 flex items-start gap-3 text-sm"
+      className="glass rounded-2xl px-3 py-2 flex items-start gap-2 text-sm"
       role="note"
     >
       {item.emoji && (
-        <span aria-hidden className="text-lg leading-none mt-0.5">
+        <span aria-hidden className="text-base leading-none mt-0.5">
           {item.emoji}
         </span>
       )}

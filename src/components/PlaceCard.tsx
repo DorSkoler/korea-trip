@@ -37,11 +37,6 @@ export function PlaceCard({
     place.foodLevel && place.foodLevel !== 'none'
       ? FOOD_EMOJI[place.foodLevel]
       : null
-  const timeLabel = place.startTime
-    ? place.durationMin
-      ? `${place.startTime} · ${t('hours.durationHours', { hours: Math.round(place.durationMin / 60) })}`
-      : place.startTime
-    : null
   const subLabel = lang === 'he' ? place.nameHe : undefined
   const notesText = pick(lang, place.notesHe, place.notesEn)
   const hasNotes = Boolean(notesText)
@@ -90,21 +85,6 @@ export function PlaceCard({
         )}
 
         <div className="min-w-0 flex-1">
-          {timeLabel && !editMode && (
-            <div
-              className="flex items-center gap-1.5 mb-1 text-xs font-medium opacity-75"
-              dir="ltr"
-            >
-              <span aria-hidden>⏱</span>
-              <span>{timeLabel}</span>
-              {foodIcon && (
-                <span className="ms-1 text-sm opacity-90" aria-hidden>
-                  {foodIcon}
-                </span>
-              )}
-            </div>
-          )}
-
           <div className="flex items-baseline gap-2 flex-wrap" dir="ltr">
             <span className="text-xl shrink-0" aria-hidden>
               {icon}
@@ -146,6 +126,11 @@ export function PlaceCard({
                   ⭐
                 </span>
               )
+            )}
+            {foodIcon && !editMode && (
+              <span className="text-base opacity-90" aria-hidden>
+                {foodIcon}
+              </span>
             )}
             {editMode && (
               <button

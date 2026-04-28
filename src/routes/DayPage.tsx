@@ -20,6 +20,7 @@ import { Navigate, useNavigate, useParams } from 'react-router-dom'
 import type { Day, Item, PlaceItem } from '../data/trip.schema'
 import { NoteItem } from '../components/NoteItem'
 import { PlaceCard } from '../components/PlaceCard'
+import { TimelineRow } from '../components/TimelineRow'
 import { TransportItem } from '../components/TransportItem'
 import { pick } from '../lib/pick'
 import { TRIP_DAYS, weekdayFromISODate } from '../lib/dates'
@@ -36,10 +37,11 @@ type ItemRowProps = {
   done: boolean
   onToggleDone: () => void
   editMode: boolean
+  isLast: boolean
 }
 
 function SortableItemRow(props: ItemRowProps) {
-  const { item, editMode } = props
+  const { item, editMode, isLast } = props
   const { attributes, listeners, setNodeRef, transform, transition, isDragging } =
     useSortable({ id: item.id, disabled: !editMode })
 
@@ -49,22 +51,58 @@ function SortableItemRow(props: ItemRowProps) {
     opacity: isDragging ? 0.5 : 1,
   }
 
-  return (
-    <div ref={setNodeRef} style={style}>
-      {item.kind === 'place' ? (
+  if (item.kind === 'place') {
+    const place = item as PlaceItem
+    const durationBadge = place.durationMin
+      ? place.durationMin >= 60
+        ? `~${Math.round(place.durationMin / 60)}h`
+        : `~${place.durationMin}m`
+      : undefined
+    return (
+      <TimelineRow
+        setNodeRef={setNodeRef}
+        rowStyle={style}
+        isLast={isLast}
+        timeStart={place.startTime}
+        timeBadge={durationBadge}
+        variant="place"
+        mustDo={Boolean(place.mustDo)}
+      >
         <PlaceCard
-          place={item as PlaceItem}
+          place={place}
           weekdayOnDate={props.weekdayOnDate}
           done={props.done}
           onToggleDone={props.onToggleDone}
           dragHandleProps={editMode ? { ...attributes, ...listeners } : undefined}
         />
-      ) : item.kind === 'transport' ? (
+      </TimelineRow>
+    )
+  }
+
+  if (item.kind === 'transport') {
+    const badge = item.durationMin ? `${item.durationMin}m` : undefined
+    return (
+      <TimelineRow
+        setNodeRef={setNodeRef}
+        rowStyle={style}
+        isLast={isLast}
+        timeBadge={badge}
+        variant="transport"
+      >
         <TransportItem item={item} />
-      ) : (
-        <NoteItem item={item} />
-      )}
-    </div>
+      </TimelineRow>
+    )
+  }
+
+  return (
+    <TimelineRow
+      setNodeRef={setNodeRef}
+      rowStyle={style}
+      isLast={isLast}
+      variant="note"
+    >
+      <NoteItem item={item} />
+    </TimelineRow>
   )
 }
 
@@ -161,8 +199,8 @@ function DayBody({ day }: DayBodyProps) {
           items={items.map((i) => i.id)}
           strategy={verticalListSortingStrategy}
         >
-          <div className="space-y-2">
-            {items.map((item) => (
+          <div>
+            {items.map((item, i) => (
               <SortableItemRow
                 key={item.id}
                 item={item}
@@ -170,13 +208,14 @@ function DayBody({ day }: DayBodyProps) {
                 done={isDone(item.id)}
                 onToggleDone={() => toggleDone(item.id)}
                 editMode={editMode}
+                isLast={i === items.length - 1}
               />
             ))}
             {editMode && (
               <button
                 type="button"
                 onClick={() => addPlace(day.dayNumber, 'morning')}
-                className="glass rounded-2xl w-full py-2.5 text-sm font-medium opacity-80 hover:opacity-100 hover:scale-[1.01] active:scale-[0.99] transition mt-3"
+                className="glass rounded-2xl w-full py-2.5 text-sm font-medium opacity-80 hover:opacity-100 hover:scale-[1.01] active:scale-[0.99] transition mt-3 ms-[4.75rem]"
                 dir="ltr"
               >
                 + Add place
