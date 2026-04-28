@@ -15,15 +15,12 @@ import {
 } from '@dnd-kit/sortable'
 import { CSS } from '@dnd-kit/utilities'
 import { motion, type PanInfo } from 'framer-motion'
-import { useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Navigate, useNavigate, useParams } from 'react-router-dom'
-import type { Day, Item, PlaceItem, TimeOfDay } from '../data/trip.schema'
+import type { Day, Item, PlaceItem } from '../data/trip.schema'
 import { NoteItem } from '../components/NoteItem'
 import { PlaceCard } from '../components/PlaceCard'
-import { TimeOfDayHeader } from '../components/TimeOfDayHeader'
 import { TransportItem } from '../components/TransportItem'
-import { TIME_OF_DAY_ORDER } from '../lib/icons'
 import { pick } from '../lib/pick'
 import { TRIP_DAYS, weekdayFromISODate } from '../lib/dates'
 import { useTripStore } from '../store/useTripStore'
@@ -32,40 +29,6 @@ import { useUIStore } from '../store/useUIStore'
 const SWIPE_THRESHOLD_PX = 60
 const SWIPE_VELOCITY = 350
 const AXIS_LOCK_RATIO = 1.5
-
-type Section = {
-  timeOfDay: TimeOfDay
-  items: Item[]
-}
-
-function groupByTimeOfDay(items: Item[]): Section[] {
-  const unknownBucket: Item[] = []
-  const buckets: Record<TimeOfDay, Item[]> = {
-    morning: [],
-    afternoon: [],
-    evening: [],
-    night: [],
-  }
-  let currentBucket: TimeOfDay | null = null
-
-  for (const item of items) {
-    if (item.kind === 'place') {
-      currentBucket = item.timeOfDay
-      buckets[item.timeOfDay].push(item)
-    } else {
-      if (currentBucket) buckets[currentBucket].push(item)
-      else unknownBucket.push(item)
-    }
-  }
-
-  const sections: Section[] = []
-  if (unknownBucket.length)
-    sections.push({ timeOfDay: 'morning', items: unknownBucket })
-  for (const t of TIME_OF_DAY_ORDER) {
-    if (buckets[t].length) sections.push({ timeOfDay: t, items: buckets[t] })
-  }
-  return sections
-}
 
 type ItemRowProps = {
   item: Item
@@ -119,7 +82,7 @@ function DayBody({ day }: DayBodyProps) {
   const reorderDay = useTripStore((s) => s.reorderDay)
 
   const weekday = weekdayFromISODate(day.date)
-  const sections = useMemo(() => groupByTimeOfDay(day.items), [day.items])
+  const items = day.items
   const title = pick(lang, day.titleHe, day.region) ?? day.region
   const summary = pick(lang, day.summaryHe, day.summaryEn)
 
@@ -195,36 +158,31 @@ function DayBody({ day }: DayBodyProps) {
         onDragEnd={handleDragEnd}
       >
         <SortableContext
-          items={day.items.map((i) => i.id)}
+          items={items.map((i) => i.id)}
           strategy={verticalListSortingStrategy}
         >
-          {sections.map((section) => (
-            <section key={section.timeOfDay}>
-              <TimeOfDayHeader timeOfDay={section.timeOfDay} />
-              <div className="space-y-2">
-                {section.items.map((item) => (
-                  <SortableItemRow
-                    key={item.id}
-                    item={item}
-                    weekdayOnDate={weekday}
-                    done={isDone(item.id)}
-                    onToggleDone={() => toggleDone(item.id)}
-                    editMode={editMode}
-                  />
-                ))}
-                {editMode && (
-                  <button
-                    type="button"
-                    onClick={() => addPlace(day.dayNumber, section.timeOfDay)}
-                    className="glass rounded-2xl w-full py-2.5 text-sm font-medium opacity-80 hover:opacity-100 hover:scale-[1.01] active:scale-[0.99] transition"
-                    dir="ltr"
-                  >
-                    + Add place
-                  </button>
-                )}
-              </div>
-            </section>
-          ))}
+          <div className="space-y-2">
+            {items.map((item) => (
+              <SortableItemRow
+                key={item.id}
+                item={item}
+                weekdayOnDate={weekday}
+                done={isDone(item.id)}
+                onToggleDone={() => toggleDone(item.id)}
+                editMode={editMode}
+              />
+            ))}
+            {editMode && (
+              <button
+                type="button"
+                onClick={() => addPlace(day.dayNumber, 'morning')}
+                className="glass rounded-2xl w-full py-2.5 text-sm font-medium opacity-80 hover:opacity-100 hover:scale-[1.01] active:scale-[0.99] transition mt-3"
+                dir="ltr"
+              >
+                + Add place
+              </button>
+            )}
+          </div>
         </SortableContext>
       </DndContext>
     </div>

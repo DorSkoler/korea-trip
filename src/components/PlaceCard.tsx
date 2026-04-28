@@ -90,6 +90,21 @@ export function PlaceCard({
         )}
 
         <div className="min-w-0 flex-1">
+          {timeLabel && !editMode && (
+            <div
+              className="flex items-center gap-1.5 mb-1 text-xs font-medium opacity-75"
+              dir="ltr"
+            >
+              <span aria-hidden>⏱</span>
+              <span>{timeLabel}</span>
+              {foodIcon && (
+                <span className="ms-1 text-sm opacity-90" aria-hidden>
+                  {foodIcon}
+                </span>
+              )}
+            </div>
+          )}
+
           <div className="flex items-baseline gap-2 flex-wrap" dir="ltr">
             <span className="text-xl shrink-0" aria-hidden>
               {icon}
@@ -102,10 +117,10 @@ export function PlaceCard({
                   const v = e.currentTarget.value.trim()
                   if (v && v !== place.name) patchPlace(place.id, { name: v })
                 }}
-                className="flex-1 min-w-0 text-base font-semibold bg-transparent border-b border-current/30 focus:border-emerald-500 outline-none"
+                className="flex-1 min-w-0 text-lg font-semibold bg-transparent border-b border-current/30 focus:border-emerald-500 outline-none"
               />
             ) : (
-              <h3 className="text-base font-semibold tracking-tight">
+              <h3 className="text-lg font-semibold tracking-tight leading-tight">
                 {place.name}
               </h3>
             )}
@@ -124,18 +139,13 @@ export function PlaceCard({
             ) : (
               place.mustDo && (
                 <span
-                  className="text-yellow-500 text-sm"
+                  className="text-yellow-500 text-base"
                   aria-label={t('place.mustDo')}
                   title={t('place.mustDo')}
                 >
                   ⭐
                 </span>
               )
-            )}
-            {foodIcon && !editMode && (
-              <span className="text-sm opacity-80" aria-hidden>
-                {foodIcon}
-              </span>
             )}
             {editMode && (
               <button
@@ -147,9 +157,6 @@ export function PlaceCard({
               >
                 🗑
               </button>
-            )}
-            {timeLabel && !editMode && (
-              <span className="ms-auto text-xs opacity-70">{timeLabel}</span>
             )}
           </div>
 
